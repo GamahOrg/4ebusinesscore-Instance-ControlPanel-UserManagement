@@ -1,0 +1,1638 @@
+[
+  {
+    "Id": "594214e1-9b2e-43cb-844d-d91287675b46",
+    "NameAr": "المسئول الأعلى",
+    "NameEn": "Super Admin",
+    "Details": "IsExpert",
+    "NormalizedName": "Super Admin",
+    "Name": "Super Admin",
+    "Code": "1",
+    "State": 0,
+    "CreatedBy": null,
+    "RolePermissions": [
+      {
+        "Permission": {
+          "IsAllAuthorized": true,
+          "NameEn": "GetReport",
+          "NameAr": "عرض",
+          "ActionName": "",
+          "ControllerName": "Report",
+          "Path": "api/Report",
+          "WorkspaceKey": "29",
+          "MethodVerd": "GET"
+        },
+        "WorkSpaceId": "00000000-0000-0000-0000-000000000000",
+        "IsChecked": true
+      },
+      {
+        "Permission": {
+          "IsAllAuthorized": true,
+          "NameEn": "GetResolve",
+          "NameAr": "عرض",
+          "ActionName": "GetResolve",
+          "ControllerName": "ResolveReport",
+          "Path": "api/ResolveReport/GetResolve",
+          "WorkspaceKey": "30",
+          "MethodVerd": "GET"
+        },
+        "WorkSpaceId": "00000000-0000-0000-0000-000000000000",
+        "IsChecked": true
+      },
+      {
+        "Permission": {
+          "IsAllAuthorized": true,
+          "NameEn": "GetStatisticsReportAdministrationForTechnicalSupportManager",
+          "NameAr": "عرض",
+          "ActionName": "StatisticsReportAdministrationForTechnicalSupportManager",
+          "ControllerName": "Report",
+          "Path": "api/Report/StatisticsReportAdministrationForTechnicalSupportManager",
+          "WorkspaceKey": "31",
+          "MethodVerd": "GET"
+        },
+        "WorkSpaceId": "00000000-0000-0000-0000-000000000000",
+        "IsChecked": true
+      },
+      {
+        "Permission": {
+          "IsAllAuthorized": true,
+          "NameEn": "GetAllMainNews",
+          "NameAr": "عرض",
+          "ActionName": "GetAllMainNews",
+          "ControllerName": "News",
+          "Path": "api/News/GetAllMainNews",
+          "WorkspaceKey": "45",
+          "MethodVerd": "GET"
+        },
+        "WorkSpaceId": "00000000-0000-0000-0000-000000000000",
+        "IsChecked": true
+      },
+      {
+        "Permission": {
+          "IsAllAuthorized": true,
+          "NameEn": "GetEscalationLevel",
+          "NameAr": "عرض",
+          "ActionName": "",
+          "ControllerName": "EscalationLevel",
+          "Path": "api/EscalationLevel",
+          "WorkspaceKey": "89",
+          "MethodVerd": "GET"
+        },
+        "WorkSpaceId": "00000000-0000-0000-0000-000000000000",
+        "IsChecked": true
+      },
+      {
+        "Permission": {
+          "IsAllAuthorized": true,
+          "NameEn": "SendNotification",
+          "NameAr": "اضافة",
+          "ActionName": "",
+          "ControllerName": "Notification",
+          "Path": "api/Notification/SendNotification",
+          "WorkspaceKey": "90",
+          "MethodVerd": "POST"
+        },
+        "WorkSpaceId": "00000000-0000-0000-0000-000000000000",
+        "IsChecked": true
+      }
+    ],
+    "RolePermissionsGroupings": [
+      {
+        "WorkspaceKey": 29,
+        "VerbType": 1
+      },
+
+      {
+        "WorkspaceKey": 89,
+        "VerbType": 1
+      },
+      {
+        "WorkspaceKey": 31,
+        "VerbType": 1
+      },
+      {
+        "WorkspaceKey": 30,
+        "VerbType": 0
+      },
+      {
+        "WorkspaceKey": 45,
+        "VerbType": 0
+      },
+      {
+        "WorkspaceKey": 46,
+        "VerbType": 0
+      },
+      {
+        "WorkspaceKey": 53,
+        "VerbType": 0
+      }
+    ]
+  },
+  {
+    "Id": "4450bea1-7bbf-43ce-ad43-e48a5b730583",
+    "NameAr": "مدير النظام",
+    "NameEn": "System Admin",
+    "Details": "IsExpert",
+    "NormalizedName": "System Admin",
+    "Name": "System Admin",
+    "Code": "2",
+    "State": 0,
+    "CreatedBy": null,
+    "RolePermissions": [
+      {
+        "Permission": {
+          "IsAllAuthorized": true,
+          "NameEn": "GetAllOrgHierarchies",
+          "NameAr": "عرض",
+          "ActionName": "GetAll",
+          "ControllerName": "OrgHierarchy",
+          "Path": "api/OrgHierarchy/GetAll",
+          "WorkspaceKey": "32",
+          "MethodVerd": "GET"
+        },
+        "WorkSpaceId": "00000000-0000-0000-0000-000000000000",
+        "IsChecked": true
+      },
+      //{
+      //  "Permission": {
+      //    "IsAllAuthorized": true,
+      //    "NameEn": "GetAllUsers",
+      //    "NameAr": "عرض",
+      //    "ActionName": "",
+      //    "ControllerName": "User",
+      //    "Path": "api/v1/User",
+      //    "WorkspaceKey": "33",
+      //    "MethodVerd": "GET"
+      //  },
+      //  "WorkSpaceId": "00000000-0000-0000-0000-000000000000",
+      //  "IsChecked": true
+      //},
+      {
+        "Permission": {
+          "IsAllAuthorized": true,
+          "NameEn": "GetCompanyProfile",
+          "NameAr": "عرض",
+          "ActionName": "GetCompanyProfile",
+          "ControllerName": "CompanyProfile",
+          "Path": "api/CompanyProfile/GetCompanyProfile",
+          //"WorkspaceKey": "34",
+          "WorkspaceKey": "250",
+          "MethodVerd": "GET"
+        },
+        "WorkSpaceId": "00000000-0000-0000-0000-000000000000",
+        "IsChecked": true
+      },
+      {
+        "Permission": {
+          "IsAllAuthorized": true,
+          "NameEn": "GetPlatformSettingsMainInfo",
+          "NameAr": "عرض",
+          "ActionName": "GetPlatformSettingsMainInfo",
+          "ControllerName": "PlatformSettings",
+          "Path": "api/PlatformSettings/GetPlatformSettingsMainInfo",
+          "WorkspaceKey": "36",
+          "MethodVerd": "GET"
+        },
+        "WorkSpaceId": "00000000-0000-0000-0000-000000000000",
+        "IsChecked": true
+      },
+      {
+        "Permission": {
+          "IsAllAuthorized": true,
+          "NameEn": "GetUserCount",
+          "NameAr": "عرض",
+          "ActionName": "GetUserCount",
+          "ControllerName": "User",
+          "Path": "api/v1/User/GetUserCount",
+          "WorkspaceKey": "78",
+          "MethodVerd": "GET"
+        },
+        "WorkSpaceId": "00000000-0000-0000-0000-000000000000",
+        "IsChecked": true
+      },
+      {
+        "Permission": {
+          "IsAllAuthorized": true,
+          "NameEn": "GetGroup",
+          "NameAr": "عرض",
+          "ActionName": "",
+          "ControllerName": "Group",
+          "Path": "api/v1/Group",
+          "WorkspaceKey": "79",
+          "MethodVerd": "GET"
+        },
+        "WorkSpaceId": "00000000-0000-0000-0000-000000000000",
+        "IsChecked": true
+      },
+      {
+        "Permission": {
+          "IsAllAuthorized": true,
+          "NameEn": "getRole",
+          "NameAr": "عرض",
+          "ActionName": "",
+          "ControllerName": "Role",
+          "Path": "api/v1/Role",
+          "WorkspaceKey": "80",
+          "MethodVerd": "GET"
+        },
+        "WorkSpaceId": "00000000-0000-0000-0000-000000000000",
+        "IsChecked": true
+      },
+      {
+        "Permission": {
+          "IsAllAuthorized": true,
+          "NameEn": "getDomain",
+          "NameAr": "عرض",
+          "ActionName": "",
+          "ControllerName": "Domain",
+          "Path": "api/v1/Domain",
+          "WorkspaceKey": "81",
+          "MethodVerd": "GET"
+        },
+        "WorkSpaceId": "00000000-0000-0000-0000-000000000000",
+        "IsChecked": true
+      },
+      {
+        "Permission": {
+          "IsAllAuthorized": true,
+          "NameEn": "GetPermission",
+          "NameAr": "عرض",
+          "ActionName": "",
+          "ControllerName": "Permission",
+          "Path": "api/v1/Permission",
+          "WorkspaceKey": "82",
+          "MethodVerd": "GET"
+        },
+        "WorkSpaceId": "00000000-0000-0000-0000-000000000000",
+        "IsChecked": true
+      },
+      {
+        "Permission": {
+          "IsAllAuthorized": true,
+          "NameEn": "GetAllNewsPaginatedFiltered",
+          "NameAr": "عرض",
+          "ActionName": "GetAllNewsPaginatedFiltered",
+          "ControllerName": "News",
+          "Path": "api/News/GetAllNewsPaginatedFiltered",
+          "WorkspaceKey": "44",
+          "MethodVerd": "GET"
+        },
+        "WorkSpaceId": "00000000-0000-0000-0000-000000000000",
+        "IsChecked": true
+      },
+      {
+        "Permission": {
+          "IsAllAuthorized": true,
+          "NameEn": "GetAllMainNews",
+          "NameAr": "عرض",
+          "ActionName": "GetAllMainNews",
+          "ControllerName": "News",
+          "Path": "api/News/GetAllMainNews",
+          "WorkspaceKey": "45",
+          "MethodVerd": "GET"
+        },
+        "WorkSpaceId": "00000000-0000-0000-0000-000000000000",
+        "IsChecked": true
+      },
+      {
+        "Permission": {
+          "IsAllAuthorized": true,
+          "NameEn": "GetReport",
+          "NameAr": "عرض",
+          "ActionName": "",
+          "ControllerName": "Report",
+          "Path": "api/Report",
+          "WorkspaceKey": "29",
+          "MethodVerd": "GET"
+        },
+        "WorkSpaceId": "00000000-0000-0000-0000-000000000000",
+        "IsChecked": true
+      },
+      {
+        "Permission": {
+          "IsAllAuthorized": true,
+          "NameEn": "GetResolve",
+          "NameAr": "عرض",
+          "ActionName": "GetResolve",
+          "ControllerName": "ResolveReport",
+          "Path": "api/ResolveReport/GetResolve",
+          "WorkspaceKey": "30",
+          "MethodVerd": "GET"
+        },
+        "WorkSpaceId": "00000000-0000-0000-0000-000000000000",
+        "IsChecked": true
+      },
+      {
+        "Permission": {
+          "IsAllAuthorized": true,
+          "NameEn": "GetStatisticsReportAdministrationForTechnicalSupportManager",
+          "NameAr": "عرض",
+          "ActionName": "StatisticsReportAdministrationForTechnicalSupportManager",
+          "ControllerName": "Report",
+          "Path": "api/Report/StatisticsReportAdministrationForTechnicalSupportManager",
+          "WorkspaceKey": "31",
+          "MethodVerd": "GET"
+        },
+        "WorkSpaceId": "00000000-0000-0000-0000-000000000000",
+        "IsChecked": true
+      },
+      {
+        "Permission": {
+          "IsAllAuthorized": true,
+          "NameEn": "GetAllMainNews",
+          "NameAr": "عرض",
+          "ActionName": "GetAllMainNews",
+          "ControllerName": "News",
+          "Path": "api/News/GetAllMainNews",
+          "WorkspaceKey": "45",
+          "MethodVerd": "GET"
+        },
+        "WorkSpaceId": "00000000-0000-0000-0000-000000000000",
+        "IsChecked": true
+      },
+      {
+        "Permission": {
+          "IsAllAuthorized": true,
+          "NameEn": "GetEscalationLevel",
+          "NameAr": "عرض",
+          "ActionName": "",
+          "ControllerName": "EscalationLevel",
+          "Path": "api/EscalationLevel",
+          "WorkspaceKey": "89",
+          "MethodVerd": "GET"
+        },
+        "WorkSpaceId": "00000000-0000-0000-0000-000000000000",
+        "IsChecked": true
+      }
+    ],
+    "RolePermissionsGroupings": [
+      {
+        "WorkspaceKey": 29,
+        "VerbType": 1
+      },
+
+      {
+        "WorkspaceKey": 89,
+        "VerbType": 1
+      },
+      {
+        "WorkspaceKey": 31,
+        "VerbType": 1
+      },
+      {
+        "WorkspaceKey": 30,
+        "VerbType": 1
+      },
+      {
+        "WorkspaceKey": 45,
+        "VerbType": 1
+      },
+      {
+        "WorkspaceKey": 78,
+        "VerbType": 1
+      },
+      {
+        "WorkspaceKey": 79,
+        "VerbType": 1
+      },
+      {
+        "WorkspaceKey": 250,
+        "VerbType": 1
+      },
+      {
+        "WorkspaceKey": 80,
+        "VerbType": 1
+      },
+      {
+        "WorkspaceKey": 46,
+        "VerbType": 1
+      },
+      {
+        "WorkspaceKey": 53,
+        "VerbType": 1
+      }
+    ]
+  },
+  {
+    "Id": "27a24f11-2c57-4a0d-a058-1ccea3551a09",
+    "NameAr": "مسئول الخدمة",
+    "NameEn": "Service Admin",
+    "Details": "IsExpert",
+    "NormalizedName": "Service Admin",
+    "Name": "Service Admin",
+    "Code": "3",
+    "State": 0,
+    "CreatedBy": null,
+    "RolePermissions": [
+      {
+        "Permission": {
+          "IsAllAuthorized": true,
+          "NameEn": "GetReport",
+          "NameAr": "عرض",
+          "ActionName": "",
+          "ControllerName": "Report",
+          "Path": "api/Report",
+          "WorkspaceKey": "29",
+          "MethodVerd": "GET"
+        },
+        "WorkSpaceId": "00000000-0000-0000-0000-000000000000",
+        "IsChecked": true
+      },
+      {
+        "Permission": {
+          "IsAllAuthorized": true,
+          "NameEn": "GetResolve",
+          "NameAr": "عرض",
+          "ActionName": "GetResolve",
+          "ControllerName": "ResolveReport",
+          "Path": "api/ResolveReport/GetResolve",
+          "WorkspaceKey": "30",
+          "MethodVerd": "GET"
+        },
+        "WorkSpaceId": "00000000-0000-0000-0000-000000000000",
+        "IsChecked": true
+      },
+      {
+        "Permission": {
+          "IsAllAuthorized": true,
+          "NameEn": "GetStatisticsReportAdministrationForTechnicalSupportManager",
+          "NameAr": "عرض",
+          "ActionName": "StatisticsReportAdministrationForTechnicalSupportManager",
+          "ControllerName": "Report",
+          "Path": "api/Report/StatisticsReportAdministrationForTechnicalSupportManager",
+          "WorkspaceKey": "31",
+          "MethodVerd": "GET"
+        },
+        "WorkSpaceId": "00000000-0000-0000-0000-000000000000",
+        "IsChecked": true
+      },
+      {
+        "Permission": {
+          "IsAllAuthorized": true,
+          "NameEn": "GetAllMainNews",
+          "NameAr": "عرض",
+          "ActionName": "GetAllMainNews",
+          "ControllerName": "News",
+          "Path": "api/News/GetAllMainNews",
+          "WorkspaceKey": "45",
+          "MethodVerd": "GET"
+        },
+        "WorkSpaceId": "00000000-0000-0000-0000-000000000000",
+        "IsChecked": true
+      },
+      {
+        "Permission": {
+          "IsAllAuthorized": true,
+          "NameEn": "GetEscalationLevel",
+          "NameAr": "عرض",
+          "ActionName": "",
+          "ControllerName": "EscalationLevel",
+          "Path": "api/EscalationLevel",
+          "WorkspaceKey": "89",
+          "MethodVerd": "GET"
+        },
+        "WorkSpaceId": "00000000-0000-0000-0000-000000000000",
+        "IsChecked": true
+      }
+    ],
+    "RolePermissionsGroupings": [
+      {
+        "WorkspaceKey": 29,
+        "VerbType": 1
+      },
+
+      {
+        "WorkspaceKey": 89,
+        "VerbType": 1
+      },
+      {
+        "WorkspaceKey": 31,
+        "VerbType": 1
+      },
+      {
+        "WorkspaceKey": 30,
+        "VerbType": 0
+      },
+      {
+        "WorkspaceKey": 45,
+        "VerbType": 0
+      },
+      {
+        "WorkspaceKey": 46,
+        "VerbType": 0
+      },
+      {
+        "WorkspaceKey": 53,
+        "VerbType": 0
+      }
+    ]
+  },
+  {
+    "Id": "32820481-5dfb-4aa8-b43b-ce3e486928c7",
+    "NameAr": "الموظف",
+    "NameEn": "Employee",
+    "Details": "IsExpert",
+    "NormalizedName": "Employee",
+    "Name": "Employee",
+    "Code": "1",
+    "State": 0,
+    "CreatedBy": null,
+    "RolePermissions": [
+      {
+        "Permission": {
+          "IsAllAuthorized": true,
+          "NameEn": "GetReport",
+          "NameAr": "عرض",
+          "ActionName": "",
+          "ControllerName": "Report",
+          "Path": "api/Report",
+          "WorkspaceKey": "29",
+          "MethodVerd": "GET"
+        },
+        "WorkSpaceId": "20a91991-ea0d-487c-941a-22ee79708fc0",
+        "IsChecked": true
+      },
+      //{
+      //  "Permission": {
+      //    "IsAllAuthorized": true,
+      //    "NameEn": "GetResolve",
+      //    "NameAr": "عرض",
+      //    "ActionName": "GetResolve",
+      //    "ControllerName": "ResolveReport",
+      //    "Path": "api/ResolveReport/GetResolve",
+      //    "WorkspaceKey": "30",
+      //    "MethodVerd": "GET"
+      //  },
+      //  "WorkSpaceId": "c1e7d259-5fc1-49c2-bd75-0b3f17904399",
+      //  "IsChecked": true
+      //},
+      {
+        "Permission": {
+          "IsAllAuthorized": true,
+          "NameEn": "GetStatisticsReportAdministrationForTechnicalSupportManager",
+          "NameAr": "عرض",
+          "ActionName": "StatisticsReportAdministrationForTechnicalSupportManager",
+          "ControllerName": "Report",
+          "Path": "api/Report/StatisticsReportAdministrationForTechnicalSupportManager",
+          "WorkspaceKey": "31",
+          "MethodVerd": "GET"
+        },
+        "WorkSpaceId": "340b653a-b53d-4d30-90a0-68faa14613b3",
+        "IsChecked": true
+      },
+      {
+        "Permission": {
+          "IsAllAuthorized": true,
+          "NameEn": "GetAllMainNews",
+          "NameAr": "عرض",
+          "ActionName": "GetAllMainNews",
+          "ControllerName": "News",
+          "Path": "api/News/GetAllMainNews",
+          "WorkspaceKey": "45",
+          "MethodVerd": "GET"
+        },
+        "WorkSpaceId": "e809234c-d47e-4468-a7f9-a4f03305474f",
+        "IsChecked": true
+      },
+      {
+        "Permission": {
+          "IsAllAuthorized": true,
+          "NameEn": "GetEscalationLevel",
+          "NameAr": "عرض",
+          "ActionName": "",
+          "ControllerName": "EscalationLevel",
+          "Path": "api/EscalationLevel",
+          "WorkspaceKey": "89",
+          "MethodVerd": "GET"
+        },
+        "WorkSpaceId": "2d0c3e43-234f-41de-968f-322a79bc57c5",
+        "IsChecked": true
+      }
+      //{
+      //  "Permission": {
+      //    "IsAllAuthorized": true,
+      //    "NameEn": "GetEscalationLevel",
+      //    "NameAr": "عرض",
+      //    "ActionName": "",
+      //    "ControllerName": "EscalationLevel",
+      //    "Path": "api/EscalationLevel",
+      //    "WorkspaceKey": "91",
+      //    "MethodVerd": "GET"
+      //  },
+      //  "WorkSpaceId": "00000000-0000-0000-0000-000000000000",
+      //  "IsChecked": true
+      //},
+      //{
+      //  "Permission": {
+      //    "IsAllAuthorized": true,
+      //    "NameEn": "OrgDefination",
+      //    "NameAr": "عرض",
+      //    "ActionName": "",
+      //    "ControllerName": "OrgDefination",
+      //    "Path": "api/v1OrgDefination",
+      //    "WorkspaceKey": "46",
+      //    "MethodVerd": "GET"
+      //  },
+      //  "WorkSpaceId": "42a5c3f8-e48f-476d-8d9a-baeff0dc499b",
+      //  "IsChecked": true
+      //},
+      //{
+      //  "Permission": {
+      //    "IsAllAuthorized": true,
+      //    "NameEn": "OrgDefination",
+      //    "NameAr": "عرض",
+      //    "ActionName": "",
+      //    "ControllerName": "OrgDefination",
+      //    "Path": "api/v1/OrgDefination",
+      //    "WorkspaceKey": "48",
+      //    "MethodVerd": "GET"
+      //  },
+      //  "WorkSpaceId": "f82f44a1-f867-4797-a00f-b153ad18e625",
+      //  "IsChecked": true
+      //}
+    ],
+    "RolePermissionsGroupings": [
+      {
+        "WorkspaceKey": 29,
+        "VerbType": 1
+      },
+
+      {
+        "WorkspaceKey": 89,
+        "VerbType": 1
+      },
+      {
+        "WorkspaceKey": 31,
+        "VerbType": 1
+      },
+      //{
+      //  "WorkspaceKey": 30,
+      //  "VerbType": 0
+      //},
+
+      {
+        "WorkspaceKey": 45,
+        "VerbType": 0
+      },
+      {
+        "WorkspaceKey": 46,
+        "VerbType": 0
+      },
+      {
+        "WorkspaceKey": 53,
+        "VerbType": 0
+      }
+      //{
+      //  "WorkspaceKey": 91,
+      //  "VerbType": 1
+      //},
+      //{
+      //  "WorkspaceKey": 46,
+      //  "VerbType": 0
+      //},
+      //{
+      //  "WorkspaceKey": 48,
+      //  "VerbType": 0
+      //}
+    ]
+  },
+  {
+    "Id": "ce45b3c9-ec55-4f6c-99b8-44498d706b30",
+    "NameAr": "الفني",
+    "NameEn": "Technician",
+    "Details": "IsExpert",
+    "NormalizedName": "Technician",
+    "Name": "Technician",
+    "Code": "1",
+    "State": 0,
+    "CreatedBy": null,
+    "RolePermissions": [
+      {
+        "Permission": {
+          "IsAllAuthorized": true,
+          "NameEn": "GetReport",
+          "NameAr": "عرض",
+          "ActionName": "",
+          "ControllerName": "Report",
+          "Path": "api/Report",
+          "WorkspaceKey": "29",
+          "MethodVerd": "GET"
+        },
+        "WorkSpaceId": "00000000-0000-0000-0000-000000000000",
+        "IsChecked": true
+      },
+      {
+        "Permission": {
+          "IsAllAuthorized": true,
+          "NameEn": "GetResolve",
+          "NameAr": "عرض",
+          "ActionName": "GetResolve",
+          "ControllerName": "ResolveReport",
+          "Path": "api/ResolveReport/GetResolve",
+          "WorkspaceKey": "30",
+          "MethodVerd": "GET"
+        },
+        "WorkSpaceId": "00000000-0000-0000-0000-000000000000",
+        "IsChecked": true
+      },
+      {
+        "Permission": {
+          "IsAllAuthorized": true,
+          "NameEn": "GetStatisticsReportAdministrationForTechnicalSupportManager",
+          "NameAr": "عرض",
+          "ActionName": "StatisticsReportAdministrationForTechnicalSupportManager",
+          "ControllerName": "Report",
+          "Path": "api/Report/StatisticsReportAdministrationForTechnicalSupportManager",
+          "WorkspaceKey": "31",
+          "MethodVerd": "GET"
+        },
+        "WorkSpaceId": "00000000-0000-0000-0000-000000000000",
+        "IsChecked": true
+      },
+      {
+        "Permission": {
+          "IsAllAuthorized": true,
+          "NameEn": "GetAllMainNews",
+          "NameAr": "عرض",
+          "ActionName": "GetAllMainNews",
+          "ControllerName": "News",
+          "Path": "api/News/GetAllMainNews",
+          "WorkspaceKey": "45",
+          "MethodVerd": "GET"
+        },
+        "WorkSpaceId": "00000000-0000-0000-0000-000000000000",
+        "IsChecked": true
+      },
+      {
+        "Permission": {
+          "IsAllAuthorized": true,
+          "NameEn": "GetEscalationLevel",
+          "NameAr": "عرض",
+          "ActionName": "",
+          "ControllerName": "EscalationLevel",
+          "Path": "api/EscalationLevel",
+          "WorkspaceKey": "89",
+          "MethodVerd": "GET"
+        },
+        "WorkSpaceId": "00000000-0000-0000-0000-000000000000",
+        "IsChecked": true
+      }
+    ],
+    "RolePermissionsGroupings": [
+      {
+        "WorkspaceKey": 29,
+        "VerbType": 1
+      },
+
+      {
+        "WorkspaceKey": 89,
+        "VerbType": 1
+      },
+      {
+        "WorkspaceKey": 31,
+        "VerbType": 1
+      },
+      {
+        "WorkspaceKey": 30,
+        "VerbType": 0
+      },
+      {
+        "WorkspaceKey": 45,
+        "VerbType": 0
+      },
+      {
+        "WorkspaceKey": 46,
+        "VerbType": 0
+      },
+      {
+        "WorkspaceKey": 53,
+        "VerbType": 0
+      }
+    ]
+  },
+  {
+    "Id": "80b0195b-fe59-43e6-90b6-b0f92e11e19e",
+    "NameAr": "المستخدم",
+    "NameEn": "User",
+    "Details": "IsExpert",
+    "NormalizedName": "User",
+    "Name": "User",
+    "Code": "1",
+    "State": 0,
+    "CreatedBy": null,
+    "RolePermissions": [
+      {
+        "Permission": {
+          "IsAllAuthorized": true,
+          "NameEn": "GetReport",
+          "NameAr": "عرض",
+          "ActionName": "",
+          "ControllerName": "Report",
+          "Path": "api/Report",
+          "WorkspaceKey": "29",
+          "MethodVerd": "GET"
+        },
+        "WorkSpaceId": "00000000-0000-0000-0000-000000000000",
+        "IsChecked": true
+      },
+      {
+        "Permission": {
+          "IsAllAuthorized": true,
+          "NameEn": "GetResolve",
+          "NameAr": "عرض",
+          "ActionName": "GetResolve",
+          "ControllerName": "ResolveReport",
+          "Path": "api/ResolveReport/GetResolve",
+          "WorkspaceKey": "30",
+          "MethodVerd": "GET"
+        },
+        "WorkSpaceId": "00000000-0000-0000-0000-000000000000",
+        "IsChecked": true
+      },
+      {
+        "Permission": {
+          "IsAllAuthorized": true,
+          "NameEn": "GetStatisticsReportAdministrationForTechnicalSupportManager",
+          "NameAr": "عرض",
+          "ActionName": "StatisticsReportAdministrationForTechnicalSupportManager",
+          "ControllerName": "Report",
+          "Path": "api/Report/StatisticsReportAdministrationForTechnicalSupportManager",
+          "WorkspaceKey": "31",
+          "MethodVerd": "GET"
+        },
+        "WorkSpaceId": "00000000-0000-0000-0000-000000000000",
+        "IsChecked": true
+      },
+      {
+        "Permission": {
+          "IsAllAuthorized": true,
+          "NameEn": "GetAllMainNews",
+          "NameAr": "عرض",
+          "ActionName": "GetAllMainNews",
+          "ControllerName": "News",
+          "Path": "api/News/GetAllMainNews",
+          "WorkspaceKey": "45",
+          "MethodVerd": "GET"
+        },
+        "WorkSpaceId": "00000000-0000-0000-0000-000000000000",
+        "IsChecked": true
+      },
+      {
+        "Permission": {
+          "IsAllAuthorized": true,
+          "NameEn": "GetEscalationLevel",
+          "NameAr": "عرض",
+          "ActionName": "",
+          "ControllerName": "EscalationLevel",
+          "Path": "api/EscalationLevel",
+          "WorkspaceKey": "89",
+          "MethodVerd": "GET"
+        },
+        "WorkSpaceId": "00000000-0000-0000-0000-000000000000",
+        "IsChecked": true
+      }
+    ],
+    "RolePermissionsGroupings": [
+      {
+        "WorkspaceKey": 29,
+        "VerbType": 1
+      },
+
+      {
+        "WorkspaceKey": 89,
+        "VerbType": 1
+      },
+      {
+        "WorkspaceKey": 31,
+        "VerbType": 1
+      },
+      {
+        "WorkspaceKey": 30,
+        "VerbType": 0
+      },
+      {
+        "WorkspaceKey": 45,
+        "VerbType": 0
+      },
+      {
+        "WorkspaceKey": 46,
+        "VerbType": 0
+      },
+      {
+        "WorkspaceKey": 53,
+        "VerbType": 0
+      }
+    ]
+  },
+  {
+    "Id": "b4345a44-440f-409b-9de7-ce6e3795cb55",
+    "NameAr": "المدير",
+    "NameEn": "Manager",
+    "Details": "IsExpert",
+    "NormalizedName": "Manager",
+    "Name": "Manager",
+    "Code": "1",
+    "State": 0,
+    "CreatedBy": null,
+    "RolePermissions": [
+      {
+        "Permission": {
+          "IsAllAuthorized": true,
+          "NameEn": "GetReport",
+          "NameAr": "عرض",
+          "ActionName": "",
+          "ControllerName": "Report",
+          "Path": "api/Report",
+          "WorkspaceKey": "29",
+          "MethodVerd": "GET"
+        },
+        "WorkSpaceId": "00000000-0000-0000-0000-000000000000",
+        "IsChecked": true
+      },
+      {
+        "Permission": {
+          "IsAllAuthorized": true,
+          "NameEn": "GetResolve",
+          "NameAr": "عرض",
+          "ActionName": "GetResolve",
+          "ControllerName": "ResolveReport",
+          "Path": "api/ResolveReport/GetResolve",
+          "WorkspaceKey": "30",
+          "MethodVerd": "GET"
+        },
+        "WorkSpaceId": "00000000-0000-0000-0000-000000000000",
+        "IsChecked": true
+      },
+      {
+        "Permission": {
+          "IsAllAuthorized": true,
+          "NameEn": "GetStatisticsReportAdministrationForTechnicalSupportManager",
+          "NameAr": "عرض",
+          "ActionName": "StatisticsReportAdministrationForTechnicalSupportManager",
+          "ControllerName": "Report",
+          "Path": "api/Report/StatisticsReportAdministrationForTechnicalSupportManager",
+          "WorkspaceKey": "31",
+          "MethodVerd": "GET"
+        },
+        "WorkSpaceId": "00000000-0000-0000-0000-000000000000",
+        "IsChecked": true
+      },
+      {
+        "Permission": {
+          "IsAllAuthorized": true,
+          "NameEn": "GetAllMainNews",
+          "NameAr": "عرض",
+          "ActionName": "GetAllMainNews",
+          "ControllerName": "News",
+          "Path": "api/News/GetAllMainNews",
+          "WorkspaceKey": "45",
+          "MethodVerd": "GET"
+        },
+        "WorkSpaceId": "00000000-0000-0000-0000-000000000000",
+        "IsChecked": true
+      },
+      {
+        "Permission": {
+          "IsAllAuthorized": true,
+          "NameEn": "GetEscalationLevel",
+          "NameAr": "عرض",
+          "ActionName": "",
+          "ControllerName": "EscalationLevel",
+          "Path": "api/EscalationLevel",
+          "WorkspaceKey": "89",
+          "MethodVerd": "GET"
+        },
+        "WorkSpaceId": "00000000-0000-0000-0000-000000000000",
+        "IsChecked": true
+      }
+    ],
+    "RolePermissionsGroupings": [
+      {
+        "WorkspaceKey": 29,
+        "VerbType": 1
+      },
+
+      {
+        "WorkspaceKey": 89,
+        "VerbType": 1
+      },
+      {
+        "WorkspaceKey": 31,
+        "VerbType": 1
+      },
+      {
+        "WorkspaceKey": 30,
+        "VerbType": 0
+      },
+      {
+        "WorkspaceKey": 45,
+        "VerbType": 0
+      },
+      {
+        "WorkspaceKey": 46,
+        "VerbType": 0
+      },
+      {
+        "WorkspaceKey": 53,
+        "VerbType": 0
+      }
+    ]
+  },
+  {
+    "Id": "7e0219e8-1d8a-484b-a945-fced9ea0d1dd",
+    "NameAr": "قائد الفريق",
+    "NameEn": "TeamLeader",
+    "Details": "IsExpert",
+    "NormalizedName": "TeamLeader",
+    "Name": "TeamLeader",
+    "Code": "1",
+    "State": 0,
+    "CreatedBy": null,
+    "RolePermissions": [
+      {
+        "Permission": {
+          "IsAllAuthorized": true,
+          "NameEn": "GetReport",
+          "NameAr": "عرض",
+          "ActionName": "",
+          "ControllerName": "Report",
+          "Path": "api/Report",
+          "WorkspaceKey": "29",
+          "MethodVerd": "GET"
+        },
+        "WorkSpaceId": "00000000-0000-0000-0000-000000000000",
+        "IsChecked": true
+      },
+      {
+        "Permission": {
+          "IsAllAuthorized": true,
+          "NameEn": "GetResolve",
+          "NameAr": "عرض",
+          "ActionName": "GetResolve",
+          "ControllerName": "ResolveReport",
+          "Path": "api/ResolveReport/GetResolve",
+          "WorkspaceKey": "30",
+          "MethodVerd": "GET"
+        },
+        "WorkSpaceId": "00000000-0000-0000-0000-000000000000",
+        "IsChecked": true
+      },
+      {
+        "Permission": {
+          "IsAllAuthorized": true,
+          "NameEn": "GetStatisticsReportAdministrationForTechnicalSupportManager",
+          "NameAr": "عرض",
+          "ActionName": "StatisticsReportAdministrationForTechnicalSupportManager",
+          "ControllerName": "Report",
+          "Path": "api/Report/StatisticsReportAdministrationForTechnicalSupportManager",
+          "WorkspaceKey": "31",
+          "MethodVerd": "GET"
+        },
+        "WorkSpaceId": "00000000-0000-0000-0000-000000000000",
+        "IsChecked": true
+      },
+      {
+        "Permission": {
+          "IsAllAuthorized": true,
+          "NameEn": "GetAllMainNews",
+          "NameAr": "عرض",
+          "ActionName": "GetAllMainNews",
+          "ControllerName": "News",
+          "Path": "api/News/GetAllMainNews",
+          "WorkspaceKey": "45",
+          "MethodVerd": "GET"
+        },
+        "WorkSpaceId": "00000000-0000-0000-0000-000000000000",
+        "IsChecked": true
+      },
+      {
+        "Permission": {
+          "IsAllAuthorized": true,
+          "NameEn": "GetEscalationLevel",
+          "NameAr": "عرض",
+          "ActionName": "",
+          "ControllerName": "EscalationLevel",
+          "Path": "api/EscalationLevel",
+          "WorkspaceKey": "89",
+          "MethodVerd": "GET"
+        },
+        "WorkSpaceId": "00000000-0000-0000-0000-000000000000",
+        "IsChecked": true
+      }
+    ],
+    "RolePermissionsGroupings": [
+      {
+        "WorkspaceKey": 29,
+        "VerbType": 1
+      },
+
+      {
+        "WorkspaceKey": 89,
+        "VerbType": 1
+      },
+      {
+        "WorkspaceKey": 31,
+        "VerbType": 1
+      },
+      {
+        "WorkspaceKey": 30,
+        "VerbType": 0
+      },
+      {
+        "WorkspaceKey": 45,
+        "VerbType": 0
+      },
+      {
+        "WorkspaceKey": 46,
+        "VerbType": 0
+      },
+      {
+        "WorkspaceKey": 53,
+        "VerbType": 0
+      }
+    ]
+  },
+  {
+    "Id": "daae7358-24c4-4c57-bd70-00a024c1bda6",
+    "NameAr": "مدير ادارة",
+    "NameEn": "DirectoroftheDepartment",
+    "Details": "IsExpert",
+    "NormalizedName": "DirectoroftheDepartment",
+    "Name": "DirectoroftheDepartment",
+    "Code": "1",
+    "State": 0,
+    "CreatedBy": null,
+    "RolePermissions": [
+      {
+        "Permission": {
+          "IsAllAuthorized": true,
+          "NameEn": "GetReport",
+          "NameAr": "عرض",
+          "ActionName": "",
+          "ControllerName": "Report",
+          "Path": "api/Report",
+          "WorkspaceKey": "29",
+          "MethodVerd": "GET"
+        },
+        "WorkSpaceId": "00000000-0000-0000-0000-000000000000",
+        "IsChecked": true
+      },
+      {
+        "Permission": {
+          "IsAllAuthorized": true,
+          "NameEn": "GetResolve",
+          "NameAr": "عرض",
+          "ActionName": "GetResolve",
+          "ControllerName": "ResolveReport",
+          "Path": "api/ResolveReport/GetResolve",
+          "WorkspaceKey": "30",
+          "MethodVerd": "GET"
+        },
+        "WorkSpaceId": "00000000-0000-0000-0000-000000000000",
+        "IsChecked": true
+      },
+      {
+        "Permission": {
+          "IsAllAuthorized": true,
+          "NameEn": "GetStatisticsReportAdministrationForTechnicalSupportManager",
+          "NameAr": "عرض",
+          "ActionName": "StatisticsReportAdministrationForTechnicalSupportManager",
+          "ControllerName": "Report",
+          "Path": "api/Report/StatisticsReportAdministrationForTechnicalSupportManager",
+          "WorkspaceKey": "31",
+          "MethodVerd": "GET"
+        },
+        "WorkSpaceId": "00000000-0000-0000-0000-000000000000",
+        "IsChecked": true
+      },
+      {
+        "Permission": {
+          "IsAllAuthorized": true,
+          "NameEn": "GetAllMainNews",
+          "NameAr": "عرض",
+          "ActionName": "GetAllMainNews",
+          "ControllerName": "News",
+          "Path": "api/News/GetAllMainNews",
+          "WorkspaceKey": "45",
+          "MethodVerd": "GET"
+        },
+        "WorkSpaceId": "00000000-0000-0000-0000-000000000000",
+        "IsChecked": true
+      },
+      {
+        "Permission": {
+          "IsAllAuthorized": true,
+          "NameEn": "GetEscalationLevel",
+          "NameAr": "عرض",
+          "ActionName": "",
+          "ControllerName": "EscalationLevel",
+          "Path": "api/EscalationLevel",
+          "WorkspaceKey": "89",
+          "MethodVerd": "GET"
+        },
+        "WorkSpaceId": "00000000-0000-0000-0000-000000000000",
+        "IsChecked": true
+      }
+    ],
+    "RolePermissionsGroupings": [
+      {
+        "WorkspaceKey": 29,
+        "VerbType": 1
+      },
+
+      {
+        "WorkspaceKey": 89,
+        "VerbType": 1
+      },
+      {
+        "WorkspaceKey": 31,
+        "VerbType": 1
+      },
+      {
+        "WorkspaceKey": 30,
+        "VerbType": 0
+      },
+      {
+        "WorkspaceKey": 45,
+        "VerbType": 0
+      },
+      {
+        "WorkspaceKey": 46,
+        "VerbType": 0
+      },
+      {
+        "WorkspaceKey": 53,
+        "VerbType": 0
+      }
+    ]
+  },
+  {
+    "Id": "edf30411-8c1f-48b1-8011-81a5577f5b0d",
+    "NameAr": "مدير الفريق",
+    "NameEn": "TeamManager",
+    "Details": "IsExpert",
+    "NormalizedName": "TeamManager",
+    "Name": "TeamManager",
+    "Code": "2",
+    "State": 0,
+    "CreatedBy": null,
+    "RolePermissions": [
+      {
+        "Permission": {
+          "IsAllAuthorized": true,
+          "NameEn": "GetReport",
+          "NameAr": "عرض",
+          "ActionName": "",
+          "ControllerName": "Report",
+          "Path": "api/Report",
+          "WorkspaceKey": "29",
+          "MethodVerd": "GET"
+        },
+        "WorkSpaceId": "00000000-0000-0000-0000-000000000000",
+        "IsChecked": true
+      },
+      {
+        "Permission": {
+          "IsAllAuthorized": true,
+          "NameEn": "GetResolve",
+          "NameAr": "عرض",
+          "ActionName": "GetResolve",
+          "ControllerName": "ResolveReport",
+          "Path": "api/ResolveReport/GetResolve",
+          "WorkspaceKey": "30",
+          "MethodVerd": "GET"
+        },
+        "WorkSpaceId": "00000000-0000-0000-0000-000000000000",
+        "IsChecked": true
+      },
+      {
+        "Permission": {
+          "IsAllAuthorized": true,
+          "NameEn": "GetStatisticsReportAdministrationForTechnicalSupportManager",
+          "NameAr": "عرض",
+          "ActionName": "StatisticsReportAdministrationForTechnicalSupportManager",
+          "ControllerName": "Report",
+          "Path": "api/Report/StatisticsReportAdministrationForTechnicalSupportManager",
+          "WorkspaceKey": "31",
+          "MethodVerd": "GET"
+        },
+        "WorkSpaceId": "00000000-0000-0000-0000-000000000000",
+        "IsChecked": true
+      },
+      {
+        "Permission": {
+          "IsAllAuthorized": true,
+          "NameEn": "GetAllMainNews",
+          "NameAr": "عرض",
+          "ActionName": "GetAllMainNews",
+          "ControllerName": "News",
+          "Path": "api/News/GetAllMainNews",
+          "WorkspaceKey": "45",
+          "MethodVerd": "GET"
+        },
+        "WorkSpaceId": "00000000-0000-0000-0000-000000000000",
+        "IsChecked": true
+      },
+      {
+        "Permission": {
+          "IsAllAuthorized": true,
+          "NameEn": "GetEscalationLevel",
+          "NameAr": "عرض",
+          "ActionName": "",
+          "ControllerName": "EscalationLevel",
+          "Path": "api/EscalationLevel",
+          "WorkspaceKey": "89",
+          "MethodVerd": "GET"
+        },
+        "WorkSpaceId": "00000000-0000-0000-0000-000000000000",
+        "IsChecked": true
+      }
+    ],
+    "RolePermissionsGroupings": [
+      {
+        "WorkspaceKey": 29,
+        "VerbType": 1
+      },
+
+      {
+        "WorkspaceKey": 89,
+        "VerbType": 1
+      },
+      {
+        "WorkspaceKey": 31,
+        "VerbType": 1
+      },
+      {
+        "WorkspaceKey": 30,
+        "VerbType": 0
+      },
+      {
+        "WorkspaceKey": 45,
+        "VerbType": 0
+      },
+      {
+        "WorkspaceKey": 46,
+        "VerbType": 0
+      },
+      {
+        "WorkspaceKey": 53,
+        "VerbType": 0
+      }
+    ]
+  },
+  {
+    "Id": "93e76b35-7498-4ea0-aab9-443773a2b328",
+    "NameAr": "موظف دعم فني",
+    "NameEn": "TechnicalSupportEmployee",
+    "Details": "IsExpert",
+    "NormalizedName": "TechnicalSupportEmployee",
+    "Name": "TechnicalSupportEmployee",
+    "Code": "1",
+    "State": 0,
+    "CreatedBy": null,
+    "RolePermissions": [
+      {
+        "Permission": {
+          "IsAllAuthorized": true,
+          "NameEn": "GetReport",
+          "NameAr": "عرض",
+          "ActionName": "",
+          "ControllerName": "Report",
+          "Path": "api/Report",
+          "WorkspaceKey": "29",
+          "MethodVerd": "GET"
+        },
+        "WorkSpaceId": "00000000-0000-0000-0000-000000000000",
+        "IsChecked": true
+      },
+      {
+        "Permission": {
+          "IsAllAuthorized": true,
+          "NameEn": "GetResolve",
+          "NameAr": "عرض",
+          "ActionName": "GetResolve",
+          "ControllerName": "ResolveReport",
+          "Path": "api/ResolveReport/GetResolve",
+          "WorkspaceKey": "30",
+          "MethodVerd": "GET"
+        },
+        "WorkSpaceId": "00000000-0000-0000-0000-000000000000",
+        "IsChecked": true
+      },
+      {
+        "Permission": {
+          "IsAllAuthorized": true,
+          "NameEn": "GetStatisticsReportAdministrationForTechnicalSupportManager",
+          "NameAr": "عرض",
+          "ActionName": "StatisticsReportAdministrationForTechnicalSupportManager",
+          "ControllerName": "Report",
+          "Path": "api/Report/StatisticsReportAdministrationForTechnicalSupportManager",
+          "WorkspaceKey": "31",
+          "MethodVerd": "GET"
+        },
+        "WorkSpaceId": "00000000-0000-0000-0000-000000000000",
+        "IsChecked": true
+      },
+      {
+        "Permission": {
+          "IsAllAuthorized": true,
+          "NameEn": "GetAllMainNews",
+          "NameAr": "عرض",
+          "ActionName": "GetAllMainNews",
+          "ControllerName": "News",
+          "Path": "api/News/GetAllMainNews",
+          "WorkspaceKey": "45",
+          "MethodVerd": "GET"
+        },
+        "WorkSpaceId": "00000000-0000-0000-0000-000000000000",
+        "IsChecked": true
+      },
+      {
+        "Permission": {
+          "IsAllAuthorized": true,
+          "NameEn": "GetEscalationLevel",
+          "NameAr": "عرض",
+          "ActionName": "",
+          "ControllerName": "EscalationLevel",
+          "Path": "api/EscalationLevel",
+          "WorkspaceKey": "89",
+          "MethodVerd": "GET"
+        },
+        "WorkSpaceId": "00000000-0000-0000-0000-000000000000",
+        "IsChecked": true
+      }
+    ],
+    "RolePermissionsGroupings": [
+      {
+        "WorkspaceKey": 29,
+        "VerbType": 1
+      },
+
+      {
+        "WorkspaceKey": 89,
+        "VerbType": 1
+      },
+      {
+        "WorkspaceKey": 31,
+        "VerbType": 1
+      },
+      {
+        "WorkspaceKey": 30,
+        "VerbType": 0
+      },
+      {
+        "WorkspaceKey": 45,
+        "VerbType": 0
+      },
+      {
+        "WorkspaceKey": 46,
+        "VerbType": 0
+      },
+      {
+        "WorkspaceKey": 53,
+        "VerbType": 0
+      }
+    ]
+  },
+  {
+    "Id": "edf30411-8c1f-48b1-8011-81a557735b0d",
+    "NameAr": "أدمن الدعم الفني",
+    "NameEn": "TechnicalSupportAdmin",
+    "Details": "Technical Support Admin",
+    "Code": 2,
+    "CreatedOn": "2023-03-15 02:21:33.4653535",
+    "CreatedBy": "3eb17e81-ede8-4b02-90a1-3625e695af03",
+    "NormalizedName": "TechnicalSupportAdmin",
+    "Name": "TechnicalSupportAdmin",
+    "RoleCategory": {
+      "NameAr": "RoleType1",
+      "NameEn": "RoleType2"
+    },
+    "RolePermissions": [
+      {
+        "Permission": {
+          "IsAllAuthorized": true,
+          "NameEn": "GetReport",
+          "NameAr": "عرض",
+          "ActionName": "",
+          "ControllerName": "Report",
+          "Path": "api/Report",
+          "WorkspaceKey": "29",
+          "MethodVerd": "GET"
+        },
+        "WorkSpaceId": "00000000-0000-0000-0000-000000000000",
+        "IsChecked": true
+      },
+      {
+        "Permission": {
+          "IsAllAuthorized": true,
+          "NameEn": "GetResolve",
+          "NameAr": "عرض",
+          "ActionName": "GetResolve",
+          "ControllerName": "ResolveReport",
+          "Path": "api/ResolveReport/GetResolve",
+          "WorkspaceKey": "30",
+          "MethodVerd": "GET"
+        },
+        "WorkSpaceId": "00000000-0000-0000-0000-000000000000",
+        "IsChecked": true
+      },
+      {
+        "Permission": {
+          "IsAllAuthorized": true,
+          "NameEn": "GetStatisticsReportAdministrationForTechnicalSupportManager",
+          "NameAr": "عرض",
+          "ActionName": "StatisticsReportAdministrationForTechnicalSupportManager",
+          "ControllerName": "Report",
+          "Path": "api/Report/StatisticsReportAdministrationForTechnicalSupportManager",
+          "WorkspaceKey": "31",
+          "MethodVerd": "GET"
+        },
+        "WorkSpaceId": "00000000-0000-0000-0000-000000000000",
+        "IsChecked": true
+      },
+      {
+        "Permission": {
+          "IsAllAuthorized": true,
+          "NameEn": "GetAllMainNews",
+          "NameAr": "عرض",
+          "ActionName": "GetAllMainNews",
+          "ControllerName": "News",
+          "Path": "api/News/GetAllMainNews",
+          "WorkspaceKey": "45",
+          "MethodVerd": "GET"
+        },
+        "WorkSpaceId": "00000000-0000-0000-0000-000000000000",
+        "IsChecked": true
+      },
+      {
+        "Permission": {
+          "IsAllAuthorized": true,
+          "NameEn": "GetEscalationLevel",
+          "NameAr": "عرض",
+          "ActionName": "",
+          "ControllerName": "EscalationLevel",
+          "Path": "api/EscalationLevel",
+          "WorkspaceKey": "89",
+          "MethodVerd": "GET"
+        },
+        "WorkSpaceId": "00000000-0000-0000-0000-000000000000",
+        "IsChecked": true
+      }
+    ],
+    "RolePermissionsGroupings": [
+      {
+        "WorkspaceKey": 29,
+        "VerbType": 1
+      },
+
+      {
+        "WorkspaceKey": 89,
+        "VerbType": 1
+      },
+      {
+        "WorkspaceKey": 31,
+        "VerbType": 1
+      },
+      {
+        "WorkspaceKey": 30,
+        "VerbType": 0
+      },
+      {
+        "WorkspaceKey": 45,
+        "VerbType": 0
+      },
+      {
+        "WorkspaceKey": 46,
+        "VerbType": 0
+      },
+      {
+        "WorkspaceKey": 53,
+        "VerbType": 0
+      }
+    ]
+
+
+  },
+  {
+    "Id": "E9F1C602-9225-4512-8136-0225FABC0E5E",
+    "NameAr": "مدير ادارة اللجان",
+    "NameEn": "Director of Committees Department",
+    "Details": "Director of Committees Department",
+    "Code": 2,
+    "CreatedOn": "2023-03-15 02:21:33.4653535",
+    "CreatedBy": "3eb17e81-ede8-4b02-90a1-3625e695af03",
+    "NormalizedName": "Director of Committees Department",
+    "Name": "Director of Committees Department"
+  },
+  {
+    "Id": "0B3878D2-BB7A-4DF4-8973-F9050C914AF4",
+    "NameAr": "مدير الخدمة",
+    "NameEn": "Service Manager",
+    "Details": "Service Manager",
+    "Code": 2,
+    "CreatedOn": "2023-03-15 02:21:33.4653535",
+    "CreatedBy": "3eb17e81-ede8-4b02-90a1-3625e695af03",
+    "NormalizedName": "Service Manager",
+    "Name": "Service Manager"
+  }
+]

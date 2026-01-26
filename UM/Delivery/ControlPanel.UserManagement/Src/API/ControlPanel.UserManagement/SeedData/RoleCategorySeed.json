@@ -1,0 +1,26 @@
+[
+
+  {
+    "Id": "a4f8c1fa-add1-4f96-9848-bb5fe60bbe18",
+    "NameAr": " إدارة",
+    "NameEn": "Organization",
+    "State": 0,
+    "CreatedBy": null
+  },
+  {
+    "Id": "21ac08fb-a6b5-4805-a2a5-294cc2346e4d",
+    "NameAr": "لجنة",
+    "NameEn": "Committee",
+    "State": 0,
+    "CreatedBy": null
+  },
+  {
+    "Id": "2538b7f8-8583-458f-9798-2c1e909b10d4",
+    "NameAr": "مستخدم",
+    "NameEn": "User",
+    "State": 0,
+    "CreatedBy": null
+  }
+ 
+
+]

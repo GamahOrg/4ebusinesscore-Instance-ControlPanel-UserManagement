@@ -1,0 +1,214 @@
+﻿[
+  {
+    "Id": "3eb17e81-ede8-4b02-90a1-3625e695af03",
+    "FirstName": "Mostafa",
+    "SecondName": "Mohamed",
+    "ThirdName": "",
+    "ForthName": "",
+    "UserName": "SystemAdmin",
+    "NormalizedUserName": "SYSTEMADMIN",
+    "Email": "SystemAdmin@gmail.com",
+    "PhoneNumber": "+966508064123",
+    "ImageUrl": "wwwroot/Uploads/DefaultImages/Users/MaleUser.jpg",
+    "UserType": 0,
+    "State": 0,
+    "CreatedOn": "2023-03-15 02:21:33.4653535",
+    "CreatedBy": null,
+    "isActive": true,
+    "FromSeed": true,
+    "PasswordHash": "AQAAAAIAAYagAAAAEBsyXhYL1cq0zWpC5WRZ3wv7h36lYRtk+EY+2KRxkwuc+6s0n/Bw1CZ41G6ciWm1pw==",
+    "SecurityStamp": "QABWUOR2H2PJ27SL4R2UTL2PMUKRJMO5",
+    "LanguageForm": {
+      "NightMode": false,
+      "Image": "wwwroot/Uploads/DefaultImages/LanguageForm/header-bg1.jpg",
+      "SitelanguageId": "4d6bfe48-88e0-4c21-a848-2a36763d0610"
+    },
+    "UserRoles": [
+      {
+        "CreatedBy": "3eb17e81-ede8-4b02-90a1-3625e695af03",
+        "CreatedOn": "2023-03-15 02:21:33.4653535",
+        "RoleId": "32820481-5dfb-4aa8-b43b-ce3e486928c7"
+      },
+      {
+        "CreatedBy": "3eb17e81-ede8-4b02-90a1-3625e695af03",
+        "CreatedOn": "2023-03-15 02:21:33.4653535",
+        "RoleId": "4450bea1-7bbf-43ce-ad43-e48a5b730583"
+        //"Role": {
+        //  "NameAr": "مدير النظام",
+        //  "NameEn": "superAdmin",
+        //  "Details": "superAdmin",
+        //  "Code": 2,
+        //  "CreatedOn": "2023-03-15 02:21:33.4653535",
+        //  "CreatedBy": "3eb17e81-ede8-4b02-90a1-3625e695af03",
+        //  "NormalizedName": "superAdmin",
+        //  "Name": "superAdmin",
+        //  "RoleCategory": {
+        //    "NameAr": "RoleType1",
+        //    "NameEn": "RoleType2"
+        //  },
+        //  "RolePermissions": [
+
+        //    {
+        //      "Permission": {
+        //        "IsAllAuthorized": true,
+        //        "NameEn": "GetAllOrgHierarchies",
+        //        "NameAr": "عرض",
+        //        "ActionName": "GetAll",
+        //        "ControllerName": "OrgHierarchy",
+        //        "Path": "api/OrgHierarchy/GetAll",
+        //        "WorkspaceKey": "32",
+        //        "MethodVerd": "GET"
+        //      },
+        //      "WorkSpaceId": "00000000-0000-0000-0000-000000000000",
+        //      "IsChecked": true
+        //    },
+        //    {
+        //      "Permission": {
+        //        "IsAllAuthorized": true,
+        //        "NameEn": "GetAllUsers",
+        //        "NameAr": "عرض",
+        //        "ActionName": "",
+        //        "ControllerName": "User",
+        //        "Path": "api/v1/User",
+        //        "WorkspaceKey": "33",
+        //        "MethodVerd": "GET"
+        //      },
+        //      "WorkSpaceId": "00000000-0000-0000-0000-000000000000",
+        //      "IsChecked": true
+        //    },
+        //    {
+        //      "Permission": {
+        //        "IsAllAuthorized": true,
+        //        "NameEn": "GetCompanyProfile",
+        //        "NameAr": "عرض",
+        //        "ActionName": "GetCompanyProfile",
+        //        "ControllerName": "CompanyProfile",
+        //        "Path": "api/CompanyProfile/GetCompanyProfile",
+        //        "WorkspaceKey": "34",
+        //        "MethodVerd": "GET"
+        //      },
+        //      "WorkSpaceId": "00000000-0000-0000-0000-000000000000",
+        //      "IsChecked": true
+        //    },
+        //    {
+        //      "Permission": {
+        //        "IsAllAuthorized": true,
+        //        "NameEn": "GetPlatformSettingsMainInfo",
+        //        "NameAr": "عرض",
+        //        "ActionName": "GetPlatformSettingsMainInfo",
+        //        "ControllerName": "PlatformSettings",
+        //        "Path": "api/PlatformSettings/GetPlatformSettingsMainInfo",
+        //        "WorkspaceKey": "36",
+        //        "MethodVerd": "GET"
+        //      },
+        //      "WorkSpaceId": "00000000-0000-0000-0000-000000000000",
+        //      "IsChecked": true
+        //    },
+        //    {
+        //      "Permission": {
+        //        "IsAllAuthorized": true,
+        //        "NameEn": "GetUserCount",
+        //        "NameAr": "عرض",
+        //        "ActionName": "GetUserCount",
+        //        "ControllerName": "User",
+        //        "Path": "api/v1/User/GetUserCount",
+        //        "WorkspaceKey": "78",
+        //        "MethodVerd": "GET"
+        //      },
+        //      "WorkSpaceId": "00000000-0000-0000-0000-000000000000",
+        //      "IsChecked": true
+        //    },
+        //    {
+        //      "Permission": {
+        //        "IsAllAuthorized": true,
+        //        "NameEn": "GetGroup",
+        //        "NameAr": "عرض",
+        //        "ActionName": "",
+        //        "ControllerName": "Group",
+        //        "Path": "api/v1/Group",
+        //        "WorkspaceKey": "79",
+        //        "MethodVerd": "GET"
+        //      },
+        //      "WorkSpaceId": "00000000-0000-0000-0000-000000000000",
+        //      "IsChecked": true
+        //    },
+        //    {
+        //      "Permission": {
+        //        "IsAllAuthorized": true,
+        //        "NameEn": "getRole",
+        //        "NameAr": "عرض",
+        //        "ActionName": "",
+        //        "ControllerName": "Role",
+        //        "Path": "api/v1/Role",
+        //        "WorkspaceKey": "80",
+        //        "MethodVerd": "GET"
+        //      },
+        //      "WorkSpaceId": "00000000-0000-0000-0000-000000000000",
+        //      "IsChecked": true
+        //    },
+        //    {
+        //      "Permission": {
+        //        "IsAllAuthorized": true,
+        //        "NameEn": "getDomain",
+        //        "NameAr": "عرض",
+        //        "ActionName": "",
+        //        "ControllerName": "Domain",
+        //        "Path": "api/v1/Domain",
+        //        "WorkspaceKey": "81",
+        //        "MethodVerd": "GET"
+        //      },
+        //      "WorkSpaceId": "00000000-0000-0000-0000-000000000000",
+        //      "IsChecked": true
+        //    },
+        //    {
+        //      "Permission": {
+        //        "IsAllAuthorized": true,
+        //        "NameEn": "GetPermission",
+        //        "NameAr": "عرض",
+        //        "ActionName": "",
+        //        "ControllerName": "Permission",
+        //        "Path": "api/v1/Permission",
+        //        "WorkspaceKey": "82",
+        //        "MethodVerd": "GET"
+        //      },
+        //      "WorkSpaceId": "00000000-0000-0000-0000-000000000000",
+        //      "IsChecked": true
+        //    },
+
+        //    {
+        //      "Permission": {
+        //        "IsAllAuthorized": true,
+        //        "NameEn": "GetAllNewsPaginatedFiltered",
+        //        "NameAr": "عرض",
+        //        "ActionName": "GetAllNewsPaginatedFiltered",
+        //        "ControllerName": "News",
+        //        "Path": "api/News/GetAllNewsPaginatedFiltered",
+        //        "WorkspaceKey": "44",
+        //        "MethodVerd": "GET"
+        //      },
+        //      "WorkSpaceId": "00000000-0000-0000-0000-000000000000",
+        //      "IsChecked": true
+        //    },
+        //    {
+        //      "Permission": {
+        //        "IsAllAuthorized": true,
+        //        "NameEn": "GetAllMainNews",
+        //        "NameAr": "عرض",
+        //        "ActionName": "GetAllMainNews",
+        //        "ControllerName": "News",
+        //        "Path": "api/News/GetAllMainNews",
+        //        "WorkspaceKey": "45",
+        //        "MethodVerd": "GET"
+        //      },
+        //      "WorkSpaceId": "00000000-0000-0000-0000-000000000000",
+        //      "IsChecked": true
+        //    }
+        //  ]
+
+        //}
+      }
+    ]
+  }
+  
+]
+

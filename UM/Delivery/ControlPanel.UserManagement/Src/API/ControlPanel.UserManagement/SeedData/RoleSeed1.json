@@ -1,0 +1,85 @@
+[
+  {
+    "NameAr": "المسئول الأعلى",
+    "NameEn": "Super Admin",
+    "Details": "IsExpert",
+    "NormalizedName": "Super Admin",
+    "Name": "Super Admin",
+    "Code": "1",
+    "State": 0,
+    "CreatedBy": null
+   
+  },
+  {
+    "NameAr": "مدير النظام",
+    "NameEn": "System Admin",
+    "Details": "IsExpert",
+    "NormalizedName": "System Admin",
+    "Name": "System Admin",
+    "Code": "2",
+    "State": 0,
+    "CreatedBy": null
+  },
+  {
+    "NameAr": "مسئول الخدمة",
+    "NameEn": "Service Admin",
+    "Details": "IsExpert",
+    "NormalizedName": "Service Admin",
+    "Name": "Service Admin",
+    "Code": "3",
+    "State": 0,
+    "CreatedBy": null
+  },
+  {
+    "NameAr": "الموظف",
+    "NameEn": "Employee",
+    "Details": "IsExpert",
+    "NormalizedName": "Employee",
+    "Name": "Employee",
+    "Code": "1",
+    "State": 0,
+    "CreatedBy": null
+  },
+
+  {
+    "NameAr": "الفني",
+    "NameEn": "Technician",
+    "Details": "IsExpert",
+    "NormalizedName": "Technician",
+    "Name": "Technician",
+    "Code": "1",
+    "State": 0,
+    "CreatedBy": null
+  },
+  {
+    "NameAr": "المستخدم",
+    "NameEn": "User",
+    "Details": "IsExpert",
+    "NormalizedName": "User",
+    "Name": "User",
+    "Code": "1",
+    "State": 0,
+    "CreatedBy": null
+  },
+  {
+    "NameAr": "المدير",
+    "NameEn": "Manager",
+    "Details": "IsExpert",
+    "NormalizedName": "Manager",
+    "Name": "Manager",
+    "Code": "1",
+    "State": 0,
+    "CreatedBy": null
+  },
+  {
+    "NameAr": "قائد الفريق",
+    "NameEn": "TeamLeader",
+    "Details": "IsExpert",
+    "NormalizedName": "TeamLeader",
+    "Name": "TeamLeader",
+    "Code": "1",
+    "State": 0,
+    "CreatedBy": null
+  }
+
+]

@@ -1,0 +1,19 @@
+[
+  {
+    "Id": 1,
+    "NameAr": "المهام",
+    "NameEn": "Mission",
+    "IsChecked": true
+  },
+  { "Id": 2, "NameAr": "مساحة العمل", "NameEn": "Work Space", "IsChecked": true },
+
+  { "Id": 3,  "NameAr": "الطلبات", "NameEn": "Request", "IsChecked": true },
+  {
+    "Id": 4,
+    "NameAr": "البريد الاكتروني",
+    "NameEn": "Email",
+    "IsChecked": true
+  },
+  { "Id": 5,  "NameAr": "المستعرض مؤخرا", "NameEn": "Recent", "IsChecked": true },
+  { "Id": 6, "NameAr": "مفضلتي", "NameEn": "Favourite", "IsChecked": true }
+]

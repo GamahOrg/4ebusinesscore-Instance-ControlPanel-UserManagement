@@ -1,0 +1,743 @@
+﻿[
+  {
+    "Id": "3eb17e81-ede8-4b02-90a1-3625e695af03",
+    "FirstName": "Mostafa",
+    "SecondName": "Mohamed",
+    "UserName": "SystemAdmin",
+    "NormalizedUserName": "SYSTEMADMIN",
+    "Email": "SystemAdmin@gmail.com",
+    "PhoneNumber": "+966508064123",
+    "ImageUrl": "wwwroot/Uploads/DefaultImages/Users/MaleUser.jpg",
+    "UserType": 0,
+    "State": 0,
+    "CreatedBy": null,
+    "isActive": true,
+    "PasswordHash": "AQAAAAIAAYagAAAAEBsyXhYL1cq0zWpC5WRZ3wv7h36lYRtk+EY+2KRxkwuc+6s0n/Bw1CZ41G6ciWm1pw==",
+    "SecurityStamp": "QABWUOR2H2PJ27SL4R2UTL2PMUKRJMO5",
+    "LanguageForm": {
+      "NightMode": false,
+      "Image": "wwwroot/Uploads/DefaultImages/LanguageForm/header-bg1.jpg",
+      "SitelanguageId": "4d6bfe48-88e0-4c21-a848-2a36763d0610"
+    },
+    "UserRoles": [
+      {
+        "CreatedBy": "3eb17e81-ede8-4b02-90a1-3625e695af03",
+        "Role": {
+          "NameAr": "مدير النظام",
+          "NameEn": "superAdmin",
+          "Details": "superAdmin",
+          "Code": 2,
+          "CreatedOn": "2023-03-15 02:21:33.4653535",
+          "CreatedBy": "3eb17e81-ede8-4b02-90a1-3625e695af03",
+          "NormalizedName": "superAdmin",
+          "Name": "superAdmin",
+          "RoleCategory": {
+            "NameAr": "RoleType1",
+            "NameEn": "RoleType2"
+          },
+          "RolePermissions": [
+
+            {
+              "Permission": {
+                "IsAllAuthorized": true,
+                "NameEn": "GetAllOrgHierarchies",
+                "NameAr": "عرض",
+                "ActionName": "GetAll",
+                "ControllerName": "OrgHierarchy",
+                "Path": "api/OrgHierarchy/GetAll",
+                "WorkspaceKey": "32",
+                "MethodVerd": "GET"
+              },
+              "WorkSpaceId": "00000000-0000-0000-0000-000000000000",
+              "IsChecked": true
+            },
+            {
+              "Permission": {
+                "IsAllAuthorized": true,
+                "NameEn": "GetAllUsers",
+                "NameAr": "عرض",
+                "ActionName": "",
+                "ControllerName": "User",
+                "Path": "api/v1/User",
+                "WorkspaceKey": "33",
+                "MethodVerd": "GET"
+              },
+              "WorkSpaceId": "00000000-0000-0000-0000-000000000000",
+              "IsChecked": true
+            },
+            {
+              "Permission": {
+                "IsAllAuthorized": true,
+                "NameEn": "GetCompanyProfile",
+                "NameAr": "عرض",
+                "ActionName": "GetCompanyProfile",
+                "ControllerName": "CompanyProfile",
+                "Path": "api/CompanyProfile/GetCompanyProfile",
+                "WorkspaceKey": "34",
+                "MethodVerd": "GET"
+              },
+              "WorkSpaceId": "00000000-0000-0000-0000-000000000000",
+              "IsChecked": true
+            },
+            {
+              "Permission": {
+                "IsAllAuthorized": true,
+                "NameEn": "GetPlatformSettingsMainInfo",
+                "NameAr": "عرض",
+                "ActionName": "GetPlatformSettingsMainInfo",
+                "ControllerName": "PlatformSettings",
+                "Path": "api/PlatformSettings/GetPlatformSettingsMainInfo",
+                "WorkspaceKey": "36",
+                "MethodVerd": "GET"
+              },
+              "WorkSpaceId": "00000000-0000-0000-0000-000000000000",
+              "IsChecked": true
+            },
+            {
+              "Permission": {
+                "IsAllAuthorized": true,
+                "NameEn": "GetUserCount",
+                "NameAr": "عرض",
+                "ActionName": "GetUserCount",
+                "ControllerName": "User",
+                "Path": "api/v1/User/GetUserCount",
+                "WorkspaceKey": "78",
+                "MethodVerd": "GET"
+              },
+              "WorkSpaceId": "00000000-0000-0000-0000-000000000000",
+              "IsChecked": true
+            },
+            {
+              "Permission": {
+                "IsAllAuthorized": true,
+                "NameEn": "GetGroup",
+                "NameAr": "عرض",
+                "ActionName": "",
+                "ControllerName": "Group",
+                "Path": "api/v1/Group",
+                "WorkspaceKey": "79",
+                "MethodVerd": "GET"
+              },
+              "WorkSpaceId": "00000000-0000-0000-0000-000000000000",
+              "IsChecked": true
+            },
+            {
+              "Permission": {
+                "IsAllAuthorized": true,
+                "NameEn": "getRole",
+                "NameAr": "عرض",
+                "ActionName": "",
+                "ControllerName": "Role",
+                "Path": "api/v1/Role",
+                "WorkspaceKey": "80",
+                "MethodVerd": "GET"
+              },
+              "WorkSpaceId": "00000000-0000-0000-0000-000000000000",
+              "IsChecked": true
+            },
+            {
+              "Permission": {
+                "IsAllAuthorized": true,
+                "NameEn": "getDomain",
+                "NameAr": "عرض",
+                "ActionName": "",
+                "ControllerName": "Domain",
+                "Path": "api/v1/Domain",
+                "WorkspaceKey": "81",
+                "MethodVerd": "GET"
+              },
+              "WorkSpaceId": "00000000-0000-0000-0000-000000000000",
+              "IsChecked": true
+            },
+            {
+              "Permission": {
+                "IsAllAuthorized": true,
+                "NameEn": "GetPermission",
+                "NameAr": "عرض",
+                "ActionName": "",
+                "ControllerName": "Permission",
+                "Path": "api/v1/Permission",
+                "WorkspaceKey": "82",
+                "MethodVerd": "GET"
+              },
+              "WorkSpaceId": "00000000-0000-0000-0000-000000000000",
+              "IsChecked": true
+            },
+
+            {
+              "Permission": {
+                "IsAllAuthorized": true,
+                "NameEn": "GetAllNewsPaginatedFiltered",
+                "NameAr": "عرض",
+                "ActionName": "GetAllNewsPaginatedFiltered",
+                "ControllerName": "News",
+                "Path": "api/News/GetAllNewsPaginatedFiltered",
+                "WorkspaceKey": "44",
+                "MethodVerd": "GET"
+              },
+              "WorkSpaceId": "00000000-0000-0000-0000-000000000000",
+              "IsChecked": true
+            },
+            {
+              "Permission": {
+                "IsAllAuthorized": true,
+                "NameEn": "GetAllMainNews",
+                "NameAr": "عرض",
+                "ActionName": "GetAllMainNews",
+                "ControllerName": "News",
+                "Path": "api/News/GetAllMainNews",
+                "WorkspaceKey": "45",
+                "MethodVerd": "GET"
+              },
+              "WorkSpaceId": "00000000-0000-0000-0000-000000000000",
+              "IsChecked": true
+            }
+          ]
+
+        }
+      }
+    ]
+  },
+  {
+    "Id": "3dc5f583-a234-4d3e-a52f-e255cbccf68c",
+    "FirstName": "Sayed",
+    "SecondName": "Omar",
+    "UserName": "TechnicalSupport",
+    "NormalizedUserName": "TECHNICALSUPPORT",
+    "Email": "TechnicalSupport@gmail.com",
+    "PhoneNumber": "+966508064123",
+    "ImageUrl": "wwwroot/Uploads/DefaultImages/Users/MaleUser.jpg",
+    "UserType": 0,
+    "State": 0,
+    "CreatedBy": null,
+    "isActive": true,
+    "PasswordHash": "AQAAAAIAAYagAAAAEG9gtWL+bkkR1C0d9W92RdJ8zrHknmYYZk7ICkuxIG7BT517cgsr27ATJPwy8s5GUQ==",
+    "SecurityStamp": "AQAAAAIAAYagAAAAEG9gtWL+bkkR1C0d9W92RdJ8zrHknmYYZk7ICkuxIG7BT517cgsr27ATJPwy8s5GUQ==",
+    "LanguageForm": {
+      "NightMode": false,
+      "Image": "wwwroot/Uploads/DefaultImages/LanguageForm/header-bg1.jpg",
+      "SitelanguageId": "4d6bfe48-88e0-4c21-a848-2a36763d0610"
+    },
+    "UserRoles": [
+      {
+        "CreatedBy": "3eb17e81-ede8-4b02-90a1-3625e695af03",
+        "Role": {
+          "NameAr": "أدمن الدعم الفني",
+          "NameEn": "TechnicalSupportAdmin",
+          "Details": "Technical Support Admin",
+          "Code": 2,
+          "CreatedOn": "2023-03-15 02:21:33.4653535",
+          "CreatedBy": "3eb17e81-ede8-4b02-90a1-3625e695af03",
+          "NormalizedName": "TechnicalSupportAdmin",
+          "Name": "TechnicalSupportAdmin",
+          "RoleCategory": {
+            "NameAr": "RoleType1",
+            "NameEn": "RoleType2"
+          },
+          "RolePermissions": [
+            {
+              "Permission": {
+                "IsAllAuthorized": true,
+                "NameEn": "GetCategory",
+                "NameAr": "عرض",
+                "ActionName": "",
+                "ControllerName": "Category",
+                "Path": "api/Category",
+                "WorkspaceKey": "86",
+                "MethodVerd": "GET"
+              },
+              "WorkSpaceId": "00000000-0000-0000-0000-000000000000",
+              "IsChecked": true
+            },
+            {
+              "Permission": {
+                "IsAllAuthorized": true,
+                "NameEn": "GetItem",
+                "NameAr": "عرض",
+                "ActionName": "",
+                "ControllerName": "Item",
+                "Path": "api/Item",
+                "WorkspaceKey": "87",
+                "MethodVerd": "GET"
+              },
+              "WorkSpaceId": "00000000-0000-0000-0000-000000000000",
+              "IsChecked": true
+            },
+            {
+              "Permission": {
+                "IsAllAuthorized": true,
+                "NameEn": "GetMainClassification",
+                "NameAr": "عرض",
+                "ActionName": "",
+                "ControllerName": "MainClassification",
+                "Path": "api/MainClassification",
+                "WorkspaceKey": "88",
+                "MethodVerd": "GET"
+              },
+              "WorkSpaceId": "00000000-0000-0000-0000-000000000000",
+              "IsChecked": true
+            },
+            {
+              "Permission": {
+                "IsAllAuthorized": true,
+                "NameEn": "GetEscalationLevel",
+                "NameAr": "عرض",
+                "ActionName": "",
+                "ControllerName": "EscalationLevel",
+                "Path": "api/EscalationLevel",
+                "WorkspaceKey": "89",
+                "MethodVerd": "GET"
+              },
+              "WorkSpaceId": "00000000-0000-0000-0000-000000000000",
+              "IsChecked": true
+            },
+            {
+              "Permission": {
+                "IsAllAuthorized": true,
+                "NameEn": "GetReportsForTechnicalSupportManager",
+                "NameAr": "عرض",
+                "ActionName": "GetReportsForTechnicalSupportManager",
+                "ControllerName": "Report",
+                "Path": "api/Report/GetReportsForTechnicalSupportManager",
+                "WorkspaceKey": "26",
+                "MethodVerd": "GET"
+              },
+              "WorkSpaceId": "00000000-0000-0000-0000-000000000000",
+              "IsChecked": true
+            },
+            {
+              "Permission": {
+                "IsAllAuthorized": true,
+                "NameEn": "GetRequsetdReport",
+                "NameAr": "عرض",
+                "ActionName": "GetRequsetdReport",
+                "ControllerName": "Report",
+                "Path": "api/Report/GetRequsetdReport",
+                "WorkspaceKey": "27",
+                "MethodVerd": "GET"
+              },
+              "WorkSpaceId": "00000000-0000-0000-0000-000000000000",
+              "IsChecked": true
+            },
+            {
+              "Permission": {
+                "IsAllAuthorized": true,
+                "NameEn": "GetReport",
+                "NameAr": "عرض",
+                "ActionName": "",
+                "ControllerName": "Report",
+                "Path": "api/Report",
+                "WorkspaceKey": "29",
+                "MethodVerd": "GET"
+              },
+              "WorkSpaceId": "00000000-0000-0000-0000-000000000000",
+              "IsChecked": true
+            },
+            {
+              "Permission": {
+                "IsAllAuthorized": true,
+                "NameEn": "GetTechnicians",
+                "NameAr": "عرض",
+                "ActionName": "technicians",
+                "ControllerName": "ServiceCatalog",
+                "Path": "api/ServiceCatalog/technicians",
+                "WorkspaceKey": "30",
+                "MethodVerd": "GET"
+              },
+              "WorkSpaceId": "00000000-0000-0000-0000-000000000000",
+              "IsChecked": true
+            },
+            {
+              "Permission": {
+                "IsAllAuthorized": true,
+                "NameEn": "GetStatisticsReportAdministrationForTechnicalSupportManager",
+                "NameAr": "عرض",
+                "ActionName": "StatisticsReportAdministrationForTechnicalSupportManager",
+                "ControllerName": "Report",
+                "Path": "api/Report/StatisticsReportAdministrationForTechnicalSupportManager",
+                "WorkspaceKey": "31",
+                "MethodVerd": "GET"
+              },
+              "WorkSpaceId": "00000000-0000-0000-0000-000000000000",
+              "IsChecked": true
+            }
+
+          ]
+
+        }
+      }
+    ]
+  },
+  {
+    "Id": "ae984568-fb7a-4fb2-89e0-6519f4946015",
+    "FirstName": "Mostafa",
+    "SecondName": "Elnady",
+    "UserName": "Ali",
+    "NormalizedUserName": "ALI",
+    "Email": "Ali@gmail.com",
+    "PhoneNumber": "+966508064123",
+    "ImageUrl": "wwwroot/Uploads/DefaultImages/Users/MaleUser.jpg",
+    "UserType": 0,
+    "State": 0,
+    "CreatedBy": null,
+    "isActive": true,
+    "PasswordHash": "AQAAAAIAAYagAAAAEG9gtWL+bkkR1C0d9W92RdJ8zrHknmYYZk7ICkuxIG7BT517cgsr27ATJPwy8s5GUQ==",
+    "SecurityStamp": "AQAAAAIAAYagAAAAEG9gtWL+bkkR1C0d9W92RdJ8zrHknmYYZk7ICkuxIG7BT517cgsr27ATJPwy8s5GUQ==",
+    "LanguageForm": {
+      "NightMode": false,
+      "Image": "wwwroot/Uploads/DefaultImages/LanguageForm/header-bg1.jpg",
+      "SitelanguageId": "4d6bfe48-88e0-4c21-a848-2a36763d0610"
+    },
+    "UserRoles": [
+      {
+        "CreatedBy": "3eb17e81-ede8-4b02-90a1-3625e695af03",
+        "Role": {
+          "NameAr": "مدير الهيكل التنظيمى",
+          "NameEn": "OrganizationAdmin",
+          "Details": "الهيكل التنظيمى",
+          "Code": 2,
+          "CreatedOn": "2023-03-15 02:21:33.4653535",
+          "CreatedBy": "3eb17e81-ede8-4b02-90a1-3625e695af03",
+          "NormalizedName": "superAdmin",
+          "Name": "superAdmin"
+          //"RolePermissions": [
+
+          //  {
+          //    "Permission": {
+          //      "IsAllAuthorized": true,
+          //      "NameEn": "GetAllOrgHierarchies",
+          //      "NameAr": "عرض جميع الادارات",
+          //      "ActionName": "GetAll",
+          //      "ControllerName": "OrgHierarchy",
+          //      "Path": "api/OrgHierarchy/GetAll",
+          //      "WorkspaceKey": "32",
+          //      "MethodVerd": "GET"
+          //    },
+          //    "WorkSpaceId": "00000000-0000-0000-0000-000000000000",
+          //    "IsChecked": true
+          //  },
+          //  {
+          //    "Permission": {
+          //      "IsAllAuthorized": true,
+          //      "NameEn": "GetAllUsers",
+          //      "NameAr": "عرض جميع المستخدمين",
+          //      "ActionName": "",
+          //      "ControllerName": "User",
+          //      "Path": "api/v1/User",
+          //      "WorkspaceKey": "33",
+          //      "MethodVerd": "GET"
+          //    },
+          //    "WorkSpaceId": "00000000-0000-0000-0000-000000000000",
+          //    "IsChecked": true
+          //  },
+          //  {
+          //    "Permission": {
+          //      "IsAllAuthorized": true,
+          //      "NameEn": "GetCompanyProfile",
+          //      "NameAr": "عرض البيانات الاساسية للشركة",
+          //      "ActionName": "GetCompanyProfile",
+          //      "ControllerName": "CompanyProfile",
+          //      "Path": "api/CompanyProfile/GetCompanyProfile",
+          //      "WorkspaceKey": "34",
+          //      "MethodVerd": "GET"
+          //    },
+          //    "WorkSpaceId": "00000000-0000-0000-0000-000000000000",
+          //    "IsChecked": true
+          //  },
+          //  {
+          //    "Permission": {
+          //      "IsAllAuthorized": true,
+          //      "NameEn": "GetPlatformSettingsMainInfo",
+          //      "NameAr": "عرض البيانات الاساسية لاعدادات المنصة",
+          //      "ActionName": "GetPlatformSettingsMainInfo",
+          //      "ControllerName": "PlatformSettings",
+          //      "Path": "api/PlatformSettings/GetPlatformSettingsMainInfo",
+          //      "WorkspaceKey": "36",
+          //      "MethodVerd": "GET"
+          //    },
+          //    "WorkSpaceId": "00000000-0000-0000-0000-000000000000",
+          //    "IsChecked": true
+          //  },
+          //  {
+          //    "Permission": {
+          //      "IsAllAuthorized": true,
+          //      "NameEn": "GetUserCount",
+          //      "NameAr": "عرض عدد المستخدمين",
+          //      "ActionName": "GetUserCount",
+          //      "ControllerName": "User",
+          //      "Path": "api/v1/User/GetUserCount",
+          //      "WorkspaceKey": "78",
+          //      "MethodVerd": "GET"
+          //    },
+          //    "WorkSpaceId": "00000000-0000-0000-0000-000000000000",
+          //    "IsChecked": true
+          //  },
+          //  {
+          //    "Permission": {
+          //      "IsAllAuthorized": true,
+          //      "NameEn": "GetGroup",
+          //      "NameAr": "عرض المجموعات",
+          //      "ActionName": "",
+          //      "ControllerName": "Group",
+          //      "Path": "api/v1/Group",
+          //      "WorkspaceKey": "79",
+          //      "MethodVerd": "GET"
+          //    },
+          //    "WorkSpaceId": "00000000-0000-0000-0000-000000000000",
+          //    "IsChecked": true
+          //  },
+          //  {
+          //    "Permission": {
+          //      "IsAllAuthorized": true,
+          //      "NameEn": "getRole",
+          //      "NameAr": "عرض الادوار",
+          //      "ActionName": "",
+          //      "ControllerName": "Role",
+          //      "Path": "api/v1/Role",
+          //      "WorkspaceKey": "80",
+          //      "MethodVerd": "GET"
+          //    },
+          //    "WorkSpaceId": "00000000-0000-0000-0000-000000000000",
+          //    "IsChecked": true
+          //  },
+          //  {
+          //    "Permission": {
+          //      "IsAllAuthorized": true,
+          //      "NameEn": "getDomain",
+          //      "NameAr": "عرض النطاقات",
+          //      "ActionName": "",
+          //      "ControllerName": "Domain",
+          //      "Path": "api/v1/Domain",
+          //      "WorkspaceKey": "81",
+          //      "MethodVerd": "GET"
+          //    },
+          //    "WorkSpaceId": "00000000-0000-0000-0000-000000000000",
+          //    "IsChecked": true
+          //  },
+          //  {
+          //    "Permission": {
+          //      "IsAllAuthorized": true,
+          //      "NameEn": "GetPermission",
+          //      "NameAr": "عرض الصلاحيات",
+          //      "ActionName": "",
+          //      "ControllerName": "Permission",
+          //      "Path": "api/v1/Permission",
+          //      "WorkspaceKey": "82",
+          //      "MethodVerd": "GET"
+          //    },
+          //    "WorkSpaceId": "00000000-0000-0000-0000-000000000000",
+          //    "IsChecked": true
+          //  },
+
+          //  {
+          //    "Permission": {
+          //      "IsAllAuthorized": true,
+          //      "NameEn": "GetAllNewsPaginatedFiltered",
+          //      "NameAr": "عرض الاخبار",
+          //      "ActionName": "GetAllNewsPaginatedFiltered",
+          //      "ControllerName": "News",
+          //      "Path": "api/News/GetAllNewsPaginatedFiltered",
+          //      "WorkspaceKey": "44",
+          //      "MethodVerd": "GET"
+          //    },
+          //    "WorkSpaceId": "00000000-0000-0000-0000-000000000000",
+          //    "IsChecked": true
+          //  },
+          //  {
+          //    "Permission": {
+          //      "IsAllAuthorized": true,
+          //      "NameEn": "GetAllMainNews",
+          //      "NameAr": "عرض الاخبار الجديدة",
+          //      "ActionName": "GetAllMainNews",
+          //      "ControllerName": "News",
+          //      "Path": "api/News/GetAllMainNews",
+          //      "WorkspaceKey": "45",
+          //      "MethodVerd": "GET"
+          //    },
+          //    "WorkSpaceId": "00000000-0000-0000-0000-000000000000",
+          //    "IsChecked": true
+          //  }
+          //]
+
+        }
+      }
+    ]
+  },
+  {
+    "Id": "2cfb5f17-22d9-431e-a6b3-0759e7c11b8f",
+    "FirstName": "John",
+    "SecondName": "Doe",
+    "UserName": "JohnDoe",
+    "NormalizedUserName": "JOHNDOE",
+    "Email": "john.doe@example.com",
+    "PhoneNumber": "+1234567890",
+    "ImageUrl": "wwwroot/Uploads/DefaultImages/Users/FemaleUser.jpg",
+    "UserType": 1,
+    "State": 0,
+    "CreatedBy": null,
+    "isActive": true,
+    "PasswordHash": "AQAAAAIAAYagAAAAEG9gtWL+bkkR1C0d9W92RdJ8zrHknmYYZk7ICkuxIG7BT517cgsr27ATJPwy8s5GUQ==",
+    "SecurityStamp": "AQAAAAIAAYagAAAAEG9gtWL+bkkR1C0d9W92RdJ8zrHknmYYZk7ICkuxIG7BT517cgsr27ATJPwy8s5GUQ=="
+  },
+  {
+    "Id": "4a6192c0-3c7a-4d05-bc97-93504aa1f9e3",
+    "FirstName": "Michael",
+    "SecondName": "Johnson",
+    "UserName": "Mike",
+    "NormalizedUserName": "MIKE",
+    "Email": "mike.johnson@example.com",
+    "PhoneNumber": "+1122334455",
+    "ImageUrl": "wwwroot/Uploads/DefaultImages/Users/MaleUser.jpg",
+    "UserType": 0,
+    "State": 0,
+    "CreatedBy": null,
+    "isActive": true,
+    "PasswordHash": "AQAAAAIAAYagAAAAEG9gtWL+bkkR1C0d9W92RdJ8zrHknmYYZk7ICkuxIG7BT517cgsr27ATJPwy8s5GUQ==",
+    "SecurityStamp": "AQAAAAIAAYagAAAAEG9gtWL+bkkR1C0d9W92RdJ8zrHknmYYZk7ICkuxIG7BT517cgsr27ATJPwy8s5GUQ=="
+  },
+  {
+    "Id": "5f2db8a4-76df-4bf7-9f09-8d9613bb22ac",
+    "FirstName": "Emily",
+    "SecondName": "Williams",
+    "UserName": "EmilyW",
+    "NormalizedUserName": "EMILYW",
+    "Email": "emily.williams@example.com",
+    "PhoneNumber": "+9876123450",
+    "ImageUrl": "wwwroot/Uploads/DefaultImages/Users/FemaleUser.jpg",
+    "UserType": 1,
+    "State": 0,
+    "CreatedBy": null,
+    "isActive": true,
+    "PasswordHash": "AQAAAAIAAYagAAAAEG9gtWL+bkkR1C0d9W92RdJ8zrHknmYYZk7ICkuxIG7BT517cgsr27ATJPwy8s5GUQ==",
+    "SecurityStamp": "AQAAAAIAAYagAAAAEG9gtWL+bkkR1C0d9W92RdJ8zrHknmYYZk7ICkuxIG7BT517cgsr27ATJPwy8s5GUQ=="
+  },
+  {
+    "Id": "6e0a5ba7-2eb2-4a53-8f5f-76a3e29e5a91",
+    "FirstName": "Daniel",
+    "SecondName": "Brown",
+    "UserName": "Danny",
+    "NormalizedUserName": "DANNY",
+    "Email": "danny.brown@example.com",
+    "PhoneNumber": "+1122337788",
+    "ImageUrl": "wwwroot/Uploads/DefaultImages/Users/MaleUser.jpg",
+    "UserType": 0,
+    "State": 0,
+    "CreatedBy": null,
+    "isActive": true,
+    "PasswordHash": "AQAAAAIAAYagAAAAEG9gtWL+bkkR1C0d9W92RdJ8zrHknmYYZk7ICkuxIG7BT517cgsr27ATJPwy8s5GUQ==",
+    "SecurityStamp": "AQAAAAIAAYagAAAAEG9gtWL+bkkR1C0d9W92RdJ8zrHknmYYZk7ICkuxIG7BT517cgsr27ATJPwy8s5GUQ=="
+  },
+  {
+    "Id": "7c67daa3-320b-4d7c-97e5-8e5e0c7b3c11",
+    "FirstName": "Sophia",
+    "SecondName": "Clark",
+    "UserName": "Sophie",
+    "NormalizedUserName": "SOPHIE",
+    "Email": "sophie.clark@example.com",
+    "PhoneNumber": "+1230987654",
+    "ImageUrl": "wwwroot/Uploads/DefaultImages/Users/FemaleUser.jpg",
+    "UserType": 1,
+    "State": 0,
+    "CreatedBy": null,
+    "isActive": true,
+    "PasswordHash": "AQAAAAIAAYagAAAAEG9gtWL+bkkR1C0d9W92RdJ8zrHknmYYZk7ICkuxIG7BT517cgsr27ATJPwy8s5GUQ==",
+    "SecurityStamp": "AQAAAAIAAYagAAAAEG9gtWL+bkkR1C0d9W92RdJ8zrHknmYYZk7ICkuxIG7BT517cgsr27ATJPwy8s5GUQ=="
+  },
+  {
+    "Id": "8be3eabc-381d-4d1b-8599-7f8c7cb29c71",
+    "FirstName": "Matthew",
+    "SecondName": "Taylor",
+    "UserName": "Matt",
+    "NormalizedUserName": "MATT",
+    "Email": "matt.taylor@example.com",
+    "PhoneNumber": "+9876123456",
+    "ImageUrl": "wwwroot/Uploads/DefaultImages/Users/MaleUser.jpg",
+    "UserType": 0,
+    "State": 0,
+    "CreatedBy": null,
+    "isActive": true,
+    "PasswordHash": "AQAAAAIAAYagAAAAEG9gtWL+bkkR1C0d9W92RdJ8zrHknmYYZk7ICkuxIG7BT517cgsr27ATJPwy8s5GUQ==",
+    "SecurityStamp": "AQAAAAIAAYagAAAAEG9gtWL+bkkR1C0d9W92RdJ8zrHknmYYZk7ICkuxIG7BT517cgsr27ATJPwy8s5GUQ=="
+  },
+  {
+    "Id": "9b0a7a3b-d7bb-4b1a-8c8b-afda6780c8e0",
+    "FirstName": "Emma",
+    "SecondName": "Miller",
+    "UserName": "EmmaM",
+    "NormalizedUserName": "EMMAM",
+    "Email": "emma.miller@example.com",
+    "PhoneNumber": "+1122338899",
+    "ImageUrl": "wwwroot/Uploads/DefaultImages/Users/FemaleUser.jpg",
+    "UserType": 1,
+    "State": 0,
+    "CreatedBy": null,
+    "isActive": true,
+    "PasswordHash": "AQAAAAIAAYagAAAAEG9gtWL+bkkR1C0d9W92RdJ8zrHknmYYZk7ICkuxIG7BT517cgsr27ATJPwy8s5GUQ==",
+    "SecurityStamp": "AQAAAAIAAYagAAAAEG9gtWL+bkkR1C0d9W92RdJ8zrHknmYYZk7ICkuxIG7BT517cgsr27ATJPwy8s5GUQ=="
+  },
+  {
+    "Id": "a56bf5b8-7520-48bf-93b1-5d04132b2141",
+    "FirstName": "Mason",
+    "SecondName": "Moore",
+    "UserName": "MasonM",
+    "NormalizedUserName": "MASONM",
+    "Email": "mason.moore@example.com",
+    "PhoneNumber": "+9876543210",
+    "ImageUrl": "wwwroot/Uploads/DefaultImages/Users/MaleUser.jpg",
+    "UserType": 0,
+    "State": 0,
+    "CreatedBy": null,
+    "isActive": true,
+    "PasswordHash": "AQAAAAIAAYagAAAAEG9gtWL+bkkR1C0d9W92RdJ8zrHknmYYZk7ICkuxIG7BT517cgsr27ATJPwy8s5GUQ==",
+    "SecurityStamp": "AQAAAAIAAYagAAAAEG9gtWL+bkkR1C0d9W92RdJ8zrHknmYYZk7ICkuxIG7BT517cgsr27ATJPwy8s5GUQ=="
+  },
+  {
+    "Id": "b7e8a14d-8a34-4a8c-9d1a-8e0ce3c2bd46",
+    "FirstName": "Sarah",
+    "SecondName": "Johnson",
+    "UserName": "SarahJ",
+    "NormalizedUserName": "SARAHJ",
+    "Email": "sarah.johnson@example.com",
+    "PhoneNumber": "+1122331234",
+    "ImageUrl": "wwwroot/Uploads/DefaultImages/Users/FemaleUser.jpg",
+    "UserType": 1,
+    "State": 0,
+    "CreatedBy": null,
+    "isActive": true,
+    "PasswordHash": "AQAAAAIAAYagAAAAEG9gtWL+bkkR1C0d9W92RdJ8zrHknmYYZk7ICkuxIG7BT517cgsr27ATJPwy8s5GUQ==",
+    "SecurityStamp": "AQAAAAIAAYagAAAAEG9gtWL+bkkR1C0d9W92RdJ8zrHknmYYZk7ICkuxIG7BT517cgsr27ATJPwy8s5GUQ=="
+  },
+  {
+    "Id": "c55f6a08-3cf9-4d9b-8b7b-5764de22f431",
+    "FirstName": "Robert",
+    "SecondName": "Anderson",
+    "UserName": "RobA",
+    "NormalizedUserName": "ROBA",
+    "Email": "robert.anderson@example.com",
+    "PhoneNumber": "+9876544321",
+    "ImageUrl": "wwwroot/Uploads/DefaultImages/Users/MaleUser.jpg",
+    "UserType": 0,
+    "State": 0,
+    "CreatedBy": null,
+    "isActive": true,
+    "PasswordHash": "AQAAAAIAAYagAAAAEG9gtWL+bkkR1C0d9W92RdJ8zrHknmYYZk7ICkuxIG7BT517cgsr27ATJPwy8s5GUQ==",
+    "SecurityStamp": "AQAAAAIAAYagAAAAEG9gtWL+bkkR1C0d9W92RdJ8zrHknmYYZk7ICkuxIG7BT517cgsr27ATJPwy8s5GUQ=="
+  },
+  {
+    "Id": "d8a3e9e1-8a17-4b89-b9ae-fb7ecf1ed554",
+    "FirstName": "Christopher",
+    "SecondName": "Wilson",
+    "UserName": "ChrisW",
+    "NormalizedUserName": "CHRISW",
+    "Email": "christopher.wilson@example.com",
+    "PhoneNumber": "+1122335678",
+    "ImageUrl": "wwwroot/Uploads/DefaultImages/Users/FemaleUser.jpg",
+    "UserType": 1,
+    "State": 0,
+    "CreatedBy": null,
+    "isActive": true,
+    "PasswordHash": "AQAAAAIAAYagAAAAEG9gtWL+bkkR1C0d9W92RdJ8zrHknmYYZk7ICkuxIG7BT517cgsr27ATJPwy8s5GUQ==",
+    "SecurityStamp": "AQAAAAIAAYagAAAAEG9gtWL+bkkR1C0d9W92RdJ8zrHknmYYZk7ICkuxIG7BT517cgsr27ATJPwy8s5GUQ=="
+  }
+]
+

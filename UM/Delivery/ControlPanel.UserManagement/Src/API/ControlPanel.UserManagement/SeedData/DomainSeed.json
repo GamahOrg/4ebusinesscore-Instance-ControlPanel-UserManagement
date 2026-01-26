@@ -1,0 +1,23 @@
+﻿[
+  {
+    "Id": "0c8de3a4-cb67-4726-8141-08dbd5f25751",
+    "DomainName": "الهيئة العامة للعقار",
+    "DomainNickName": "الهيئة العامة للعقار",
+    "UserName": "Rega",
+    "Password": "Ahmed",
+    "Url": "OU=Rega,DC=local,DC=rega,DC=gov,DC=sa",
+    "Body": "Rega",
+    "IsActive": true
+  },
+  {
+    "Id": "0c8de3a4-cb67-4726-8141-08dbd5f25761",
+    "DomainName": "مستخدمى خارج الهيئة العامة للعقار",
+    "DomainNickName": "مستخدمى خارج الهيئة العامة للعقار",
+    "UserName": "Vendors Accounts",
+    "Password": "Amr",
+    "Url": "OU=Vendors Accounts,DC=local,DC=rega,DC=gov,DC=sa",
+    "Body": "Vendor",
+    "IsActive": true
+    
+  }
+]

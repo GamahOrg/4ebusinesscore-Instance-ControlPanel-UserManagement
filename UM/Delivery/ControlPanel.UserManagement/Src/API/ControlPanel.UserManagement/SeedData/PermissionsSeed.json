@@ -1,0 +1,178 @@
+[
+  {
+    "Id": "B3A7D487-9066-4F24-8475-20DDBEA0FD0C",
+    "IsAllAuthorized": true,
+    "NameEn": "GetAllIndicators",
+    "NameAr": "عرض",
+    "ActionName": "GetAllIndicators",
+    "ControllerName": "Indicators",
+    "Path": "api/Indicators/GetAllIndicators",
+    "WorkspaceKey": "91",
+    "MethodVerd": "GET"
+  },
+  {
+    "Id": "80888339-0241-4AC1-84B1-A5CC688E8319",
+    "IsAllAuthorized": true,
+    "NameEn": "GetPlatformSettingsMainInfo",
+    "NameAr": "عرض",
+    "ActionName": "GetPlatformSettingsMainInfo",
+    "ControllerName": "PlatformSettings",
+    "Path": "api/PlatformSettings/GetPlatformSettingsMainInfo",
+    "WorkspaceKey": "300",
+    "MethodVerd": "GET"
+  },
+  {
+    "Id": "D56256EB-B36B-4596-B41F-2B6FAA4D0C63",
+    "IsAllAuthorized": true,
+    "NameEn": "GetPlatformSettingsMainInfo",
+    "NameAr": "عرض",
+    "ActionName": "GetPlatformSettingsMainInfo",
+    "ControllerName": "PlatformSettings",
+    "Path": "api/PlatformSettings/GetPlatformSettingsMainInfo",
+    "WorkspaceKey": "301",
+    "MethodVerd": "GET"
+  },
+  {
+    "Id": "6F1C3FCC-4C66-4F2B-88A5-349FD25226A0",
+    "IsAllAuthorized": true,
+    "NameEn": "GetPlatformSettingsMainInfo",
+    "NameAr": "عرض",
+    "ActionName": "GetPlatformSettingsMainInfo",
+    "ControllerName": "PlatformSettings",
+    "Path": "api/PlatformSettings/GetPlatformSettingsMainInfo",
+    "WorkspaceKey": "302",
+    "MethodVerd": "GET"
+  },
+  {
+    "Id": "65665A3B-D55D-4915-800C-11F0C7B232E1",
+    "IsAllAuthorized": true,
+    "NameEn": "GetPlatformSettingsMainInfo",
+    "NameAr": "عرض",
+    "ActionName": "GetPlatformSettingsMainInfo",
+    "ControllerName": "PlatformSettings",
+    "Path": "api/PlatformSettings/GetPlatformSettingsMainInfo",
+    "WorkspaceKey": "303",
+    "MethodVerd": "GET"
+  },
+  {
+    "Id": "C6C5CAF0-AECE-4B91-A91A-1B2E107CC4B7",
+    "IsAllAuthorized": true,
+    "NameEn": "GetPlatformSettingsMainInfo",
+    "NameAr": "عرض",
+    "ActionName": "GetPlatformSettingsMainInfo",
+    "ControllerName": "PlatformSettings",
+    "Path": "api/PlatformSettings/GetPlatformSettingsMainInfo",
+    "WorkspaceKey": "304",
+    "MethodVerd": "GET"
+  },
+  {
+    "Id": "6F0AF5D4-2DE0-4386-82AF-86A38E310A99",
+    "IsAllAuthorized": true,
+    "NameEn": "GetPlatformSettingsMainInfo",
+    "NameAr": "عرض",
+    "ActionName": "GetPlatformSettingsMainInfo",
+    "ControllerName": "PlatformSettings",
+    "Path": "api/PlatformSettings/GetPlatformSettingsMainInfo",
+    "WorkspaceKey": "305",
+    "MethodVerd": "GET"
+  },
+  {
+    "Id": "448C78D5-DB82-46FB-A379-CD39AAA8178F",
+    "IsAllAuthorized": true,
+    "NameEn": "GetPlatformSettingsMainInfo",
+    "NameAr": "عرض",
+    "ActionName": "GetPlatformSettingsMainInfo",
+    "ControllerName": "PlatformSettings",
+    "Path": "api/PlatformSettings/GetPlatformSettingsMainInfo",
+    "WorkspaceKey": "306",
+    "MethodVerd": "GET"
+  },
+  {
+    "Id": "9962127E-4B5F-4185-9AE3-1EAEFE74FE72",
+    "IsAllAuthorized": true,
+    "NameEn": "GetPlatformSettingsMainInfo",
+    "NameAr": "عرض",
+    "ActionName": "GetPlatformSettingsMainInfo",
+    "ControllerName": "PlatformSettings",
+    "Path": "api/PlatformSettings/GetPlatformSettingsMainInfo",
+    "WorkspaceKey": "400",
+    "MethodVerd": "GET"
+  },
+  {
+    "Id": "9CF76D90-BE42-4B2E-8BA6-73E5FFB70EBE",
+    "IsAllAuthorized": true,
+    "NameEn": "GetPlatformSettingsMainInfo",
+    "NameAr": "عرض",
+    "ActionName": "GetPlatformSettingsMainInfo",
+    "ControllerName": "PlatformSettings",
+    "Path": "api/PlatformSettings/GetPlatformSettingsMainInfo",
+    "WorkspaceKey": "401",
+    "MethodVerd": "GET"
+  },
+  {
+    "Id": "F92DC750-09CC-42AC-9A77-80485D1F97BD",
+    "IsAllAuthorized": true,
+    "NameEn": "GetPlatformSettingsMainInfo",
+    "NameAr": "عرض",
+    "ActionName": "GetPlatformSettingsMainInfo",
+    "ControllerName": "PlatformSettings",
+    "Path": "api/PlatformSettings/GetPlatformSettingsMainInfo",
+    "WorkspaceKey": "402",
+    "MethodVerd": "GET"
+  },
+  {
+    "Id": "B64E07AB-5F88-4869-80EB-156228A88DBA",
+    "IsAllAuthorized": true,
+    "NameEn": "GetPlatformSettingsMainInfo",
+    "NameAr": "عرض",
+    "ActionName": "GetPlatformSettingsMainInfo",
+    "ControllerName": "PlatformSettings",
+    "Path": "api/PlatformSettings/GetPlatformSettingsMainInfo",
+    "WorkspaceKey": "403",
+    "MethodVerd": "GET"
+  },
+  {
+    "Id": "D5A8B384-7863-48CC-9F84-3023E58D8ABC",
+    "IsAllAuthorized": true,
+    "NameEn": "GetPlatformSettingsMainInfo",
+    "NameAr": "عرض",
+    "ActionName": "GetPlatformSettingsMainInfo",
+    "ControllerName": "PlatformSettings",
+    "Path": "api/PlatformSettings/GetPlatformSettingsMainInfo",
+    "WorkspaceKey": "404",
+    "MethodVerd": "GET"
+  },
+  {
+    "Id": "B599BA22-5367-4313-B0AE-0E34DC6127C0",
+    "IsAllAuthorized": true,
+    "NameEn": "GetPlatformSettingsMainInfo",
+    "NameAr": "عرض",
+    "ActionName": "GetPlatformSettingsMainInfo",
+    "ControllerName": "PlatformSettings",
+    "Path": "api/PlatformSettings/GetPlatformSettingsMainInfo",
+    "WorkspaceKey": "405",
+    "MethodVerd": "GET"
+  },
+  {
+    "Id": "706ECB2C-F10C-4A39-B1C8-6A4583A92CF9",
+    "IsAllAuthorized": true,
+    "NameEn": "GetPlatformSettingsMainInfo",
+    "NameAr": "عرض",
+    "ActionName": "GetPlatformSettingsMainInfo",
+    "ControllerName": "PlatformSettings",
+    "Path": "api/PlatformSettings/GetPlatformSettingsMainInfo",
+    "WorkspaceKey": "406",
+    "MethodVerd": "GET"
+  },
+  {
+    "Id": "7CF671C5-0CDB-4668-89D4-19D5ED13BF6B",
+    "IsAllAuthorized": true,
+    "NameEn": "GetPlatformSettingsMainInfo",
+    "NameAr": "عرض",
+    "ActionName": "GetPlatformSettingsMainInfo",
+    "ControllerName": "PlatformSettings",
+    "Path": "api/PlatformSettings/GetPlatformSettingsMainInfo",
+    "WorkspaceKey": "407",
+    "MethodVerd": "GET"
+  }
+]
